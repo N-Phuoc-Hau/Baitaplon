@@ -161,13 +161,28 @@ html{
 }
 
 #content{
+    box-sizing: inherit;
+    width: 80%;
     height: 1000px;
-    background-color: #000;
+    overflow: hidden;
+    background-color: #ccc;
+    margin: 0 auto;
+    padding: 0 22px 55px;
 }
+
+
+
+
 
 #footer{
     height: 1000px;
 }
+
+
+
+
+
+
 
 @keyframes slideLeft{
     0%{
