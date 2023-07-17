@@ -43,6 +43,7 @@ html{
 }
 #header .logo{
     float: left;
+    margin-top: 0;
 }
 
 #nav li{
@@ -74,8 +75,7 @@ html{
     background: lightgray;
 }
 #header .search{
-    margin-top: 10px;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
