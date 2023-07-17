@@ -30,6 +30,7 @@ body{
 }
 .form-control{
     width: inherit;
+    
 }
 .submit{
     display: block !important;;
