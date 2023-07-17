@@ -13,14 +13,17 @@ html{
 }
 
 #header {
-    width: 100%;
     position: fixed;
-    top: 0;
     height: 80px;
     background-color: #ece9e9;
+    font-size: 1.2rem;
     z-index: 1;
     display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
     margin: auto;
+    padding: 0 32px;
 }
 #nav{
     display: inline-block;
@@ -43,6 +46,7 @@ html{
 }
 #header .logo{
     float: left;
+    margin-top: 0;
 }
 
 #nav li{
@@ -74,8 +78,7 @@ html{
     background: lightgray;
 }
 #header .search{
-    margin-top: 10px;
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -105,6 +108,28 @@ html{
     border-radius: 50%;
 }
 
+#nav-action{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1;
+}
+#nav-action .login-a{
+    width: 115px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 999px;
+    background-color: rgb(255, 104, 22);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 9px 20px;
+}
+#nav-action a{
+    text-decoration: none;
+}
+
+/* Phần nội dung */
 #slider{
     /* display: flex;
     align-items: center;
