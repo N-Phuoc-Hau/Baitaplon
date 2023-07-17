@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url('https://accounts.fullstack.edu.vn/static/media/f8_bg_auth_1366.cb1a38f30212c78aa891.png');
+    background-size: cover;
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#form{
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.7);
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow: 0px 0px 17px 5px rgba(255, 255, 255, 0.7); 
+}
+.form-group{
+    color: white;
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+    padding: 10px;
+    width: 80%;
+}
+.form-control{
+    width: inherit;
+    
+}
+.submit{
+    display: block !important;;
+    width: 80%;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #f5f5f5;
+    margin: 30px 0 20px 40px;
+    transition: 0.5s ease-in-out;
+}
