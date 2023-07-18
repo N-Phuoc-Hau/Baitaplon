@@ -200,8 +200,10 @@ html{
     display: flex;
     height: 36px;
     font-size: 24px;
-    
+    margin-bottom: 1rem;
 }
+
+
 #top-content .headd .plus{  
     padding: 3px 6px;
     background-color: #0e66d2;
@@ -223,8 +225,11 @@ html{
 .ele-for{
     overflow: unset;
     position: relative;
-
+    margin-bottom: 2rem;
 }
+
+
+
 .ele-for .BTN-for{
     background-color: #fff;
     border-color: #fff;
