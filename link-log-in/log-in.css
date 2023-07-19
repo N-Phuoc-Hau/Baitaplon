@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url('https://accounts.fullstack.edu.vn/static/media/f8_bg_auth_1366.cb1a38f30212c78aa891.png');
     background-size:  cover;

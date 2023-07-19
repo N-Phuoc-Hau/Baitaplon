@@ -6,7 +6,9 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-color: #f5f7f8;
+}
 #slider .list-i .active{
     background-color: rgb(52, 212, 224);
     padding: 4px;
@@ -25,20 +27,16 @@ html{
     margin: auto;
     padding: 0 32px;
 }
+
 #nav{
-    display: inline-block;
+    display: flex;
 }
 
-#nav > li > a{
-    text-transform: uppercase;
+/*#nav > li i{
     color: #000;
-}
+}*/
 
 
-
-#nav > li{
-    display: inline-block;
-}
 
 #header .logo img{
     height: 5rem;
@@ -72,7 +70,6 @@ html{
 
 #header #bignav{
     display: block;
- 
 }
 #header #nav  li :hover{
     background: lightgray;
@@ -188,7 +185,7 @@ html{
 #content{
     box-sizing: inherit;
     width: 80%;
-    height: 1000px;
+    height: 3000px;
     overflow: hidden;
     background-color: #fff;
     margin: 0 auto;
@@ -219,8 +216,9 @@ html{
     flex-wrap: wrap;
 }
 .small-forums{
-    width: 33.3333%;
-    padding: 0 8px;
+    width: 32%;
+    margin: 5px 15px 10px 0;
+    border-radius: 16px ;
 }
 .ele-for{
     overflow: unset;
@@ -228,7 +226,9 @@ html{
     margin-bottom: 2rem;
 }
 
-
+.small-forums:hover{
+    box-shadow: 0px 0px 10px 5px rgb(129, 129, 129);
+}
 
 .ele-for .BTN-for{
     background-color: #fff;
@@ -253,7 +253,8 @@ html{
     width: 100%;
 }
 .ele-for .href{
-    border-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
     display: block;
     object-fit: cover;
     overflow: hidden;
@@ -262,7 +263,7 @@ html{
     width: 100%;
 }
 .ele-for h3{
-    margin: 12px 0;
+    margin: 12px 0 0 5px;
 }
 .a-deco{
     color: #000;
@@ -273,7 +274,25 @@ html{
 
 
 #footer{
-    height: 1000px;
+    min-height: 150px;
+    padding:30px 0px 20px 30px ;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+#footer div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer li{
+    list-style-type: none;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -297,4 +316,29 @@ html{
     100%{
         transform: translateX(0%);
     }
+}
+
+
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid-col-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+.grid-col-4-0{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.3333%;
 }
