@@ -19,9 +19,9 @@ function loadmenu(){
 //         d.innerHTML += re;
 //     })
 // }
-function loadforums(){
-    fetch("data/forums.json").then(res => res.json()).then(data =>{
-        let d = document.getElementById("json-forums");
+function loadforumspro(){
+    fetch("data/forumspro.json").then(res => res.json()).then(data =>{
+        let d = document.getElementById("json-forums-pro");
         let re = "";
         for (let c of data)
         re += `
@@ -31,10 +31,33 @@ function loadforums(){
                              <button class="BTN-for">
                                  Xem khóa học
                              </button>
-                             <img class="img-for" src="./images/cont h1.png" alt="ảnh content">
+                             <img class="img-for" src="${c.src}" alt="${c.alt}">
                          </a>
                          <h3>
-                             <a class="a-deco" href="#">HTML PRO</a>
+                             <a class="a-deco" href="${c.href}">${c.name}</a>
+                         </h3>
+                     </div>
+                 </section>`;
+
+        d.innerHTML += re;
+    })
+}
+function loadforumsnor(){
+    fetch("data/forumsnor.json").then(res => res.json()).then(data =>{
+        let d = document.getElementById("json-forums-nor");
+        let re = "";
+        for (let c of data)
+        re += `
+                 <section class="small-forums">
+                     <div class="ele-for">
+                         <a href="" class="href">
+                             <button class="BTN-for">
+                                 Xem khóa học
+                             </button>
+                             <img class="img-for" src="${c.src}" alt="${c.alt}">
+                         </a>
+                         <h3>
+                             <a class="a-deco" href="${c.href}">${c.name}</a>
                          </h3>
                      </div>
                  </section>`;
@@ -44,5 +67,7 @@ function loadforums(){
 }
 window.onload = () => {
     loadmenu();
-    // loadimgslide1()
+    // loadimgslide1();
+    loadforumspro();
+    loadforumsnor();
 }
