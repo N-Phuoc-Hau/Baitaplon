@@ -3,54 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
-    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="font/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./BTL.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="logo.png" class="icon"/>
     <title>BTL</title>
 </head>
 <body>
+    <script src="./data/categories.js"></script>
     <div id="main">
         <div id="header">
-           <div id="bignav">
-                <div class="logo"><img src="./assets/img/ourmbg.png" alt="logo"></div>
-                <ul id="nav">
-                <li><a href="#"><i class="ti-home"></i></a></li>
-                <li><a href="#"><i class="ti-clipboard"></i></Li></a></li>
-                <li><a href="#"><i class="ti-book"></i></a></li>
-                <li><a href="#"><i class="ti-thumb-up"></i></a></li>
-                </ul>
-           </div>
             <div class="search">
+                <div class="logo"><img src="logo.png" alt="logo"></div>
                 <form action="" id="search-box">
                     <input type="text" class="search-input" placeholder="Tìm kiếm khóa học">
                     <button class="search-btn"><i class="ti-search"></i></button>
-                </form>      
+                </form>   
+            </div>
+           <div id="bignav">
+                <ul id="nav">
+                </ul>
+           </div>
+            
+            <div id="nav-action">
+                <a href="link-log-in/log-in.html " class="login-a">Đăng nhập</a>
             </div>
         </div>
         <div id="slider">
             <div id="slide">
-                <img src="/assets/img/slide1.jpg" alt="slide1" class="img-slide">
+                <img src="images/h1.png" alt="slide1" class="img-slide">
                 <div class="control prev ti-angle-left"></div>
                 <div class="control next ti-angle-right"></div>
             </div>
             <div class="list-i">
-                <img src="./assets/img/slide1.jpg" alt="">
-                <img src="./assets/img/bg.jpg" alt="">
-                <img src="./assets/img/ABC.webp" alt="">
-                <img src="./assets/img/slide1.jpg" alt="">
-                <img src="./assets/img/slide1.jpg" alt="">
-
+                <img src="images/h1.png" alt="">
+                <img src="images/h2.png" alt="">
+                <img src="images/h3.png" alt="">
+                <img src="images/h4.png" alt="">
+                
             </div>
         </div>
         <div id="content">
-            <div id="top-content"></div>
+            <div id="top-content">
+                <div class="LT pro">
+                    <h2 class="headd">Khóa học Pro<span class="plus">NEW<i class="ti-star"></i></span></h2>
+                    <div class="cont">
+                        <section class="forums" id="json-forums-pro"></section>
+                        </section>
+                    </div>
+                </div>
+                <div class="LT nor">
+                    <h2 class="headd">Khóa học miễn phí<span class="plus pad"><i class="ti-crown"></i></span></h2>
+                    <div class="cont">
+                        <section class="forums" id="json-forums-nor"></section>
+                    </div>
+                </div>
+            </div>
+                
+                
             <div id="bot-content"></div>
         </div>
-        <div id="footer"></div>
+        
+        <div id="footer">
+           <div class="grid">
+                <div class="grid-row">
+                    <div class="grid-col-2-4">
+                        <h3 class="heading">Item 001</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-col-2-4">
+                        <h3 class="heading">Item 001</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-col-2-4">
+                        <h3 class="heading">Item 001</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a href="tel:0389283943"><i class="fa-solid fa-phone"></i>Liên hệ: 0389283943</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-col-2-4">
+                        <h3 class="heading">Item 001</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid-col-2-4">
+                        <h3 class="heading">Item 001</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                        </ul>
+                    </div>
+                </div>
+           </div>
+        </div>
     </div>
-
-    
+ 
 </body>
-<script src="./BTL.js">
+<script src="BTL.js">
 
 </script>
 </html>
