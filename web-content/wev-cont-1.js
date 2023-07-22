@@ -9,4 +9,8 @@ window.onscroll = function(){
         var header = document.getElementById("menu");
         header.style.position = "fixed";
     }
+    else{
+        var header = document.getElementById("menu");
+        header.style.position = "relative";
+    }
 }
