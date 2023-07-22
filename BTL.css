@@ -55,6 +55,7 @@
 }
 
 #header #bignav{
+    padding-left: 100px;
     display: block;
 }
 #header #nav  li :hover{
