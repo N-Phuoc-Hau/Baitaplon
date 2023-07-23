@@ -27,7 +27,7 @@ function loadforumspro(){
         re += `
                  <section class="small-forums">
                      <div class="ele-for">
-                         <a href="" class="href">
+                         <a href="${c.href}" class="href">
                              <button class="BTN-for">
                                  Xem khóa học
                              </button>
@@ -50,7 +50,30 @@ function loadforumsnor(){
         re += `
                  <section class="small-forums">
                      <div class="ele-for">
-                         <a href="" class="href">
+                         <a href="${c.href}" class="href">
+                             <button class="BTN-for">
+                                 Xem khóa học
+                             </button>
+                             <img class="img-for" src="${c.src}" alt="${c.alt}">
+                         </a>
+                         <h3>
+                             <a class="a-deco" href="${c.href}">${c.name}</a>
+                         </h3>
+                     </div>
+                 </section>`;
+
+        d.innerHTML += re;
+    })
+}
+function loadstatus(){
+    fetch("data/statuscont.json").then(res => res.json()).then(data =>{
+        let d = document.getElementById("json-status");
+        let re = "";
+        for (let c of data)
+        re += `
+                 <section class="small-forums">
+                     <div class="ele-for">
+                         <a href="${c.href}" class="href">
                              <button class="BTN-for">
                                  Xem khóa học
                              </button>
@@ -70,4 +93,5 @@ window.onload = () => {
     // loadimgslide1();
     loadforumspro();
     loadforumsnor();
+    loadstatus();
 }

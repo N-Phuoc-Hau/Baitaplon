@@ -283,7 +283,23 @@
 }
 
 
-
+#gTTop{
+    display: none;
+    position: fixed;
+    font-size: 20px;
+    right: 30px;
+    bottom: 40px;
+    z-index: 1;
+}
+#gTTop a{
+    text-decoration: none;
+    background-color: rgba(248, 84, 56, 0.8);
+    color: rgb(32, 177, 225);
+    padding: 18.8px 20px;
+}
+#gTTop:hover{
+    box-shadow: 0px 0px 10px 5px rgb(129, 129, 129);
+}
 
 
 
