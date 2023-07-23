@@ -33,7 +33,7 @@ prevBtn.addEventListener('click', e=>{
     }
     updateImgByIndex(currentIndex);
 })
-nextBtn.addEventListener('click', e=>{
+var clickSlide = nextBtn.addEventListener('click', e=>{
     if(currentIndex == listImg.length -1){
         currentIndex = 0;
     }
@@ -46,8 +46,8 @@ nextBtn.addEventListener('click', e=>{
 //JS body
 
 
-var gototop = document.getElementById("gTTop");
 //JSGoToTop
+var gototop = document.getElementById("gTTop");
 window.onscroll = function(){
     console.info(document.body.scrollTop);
     var gototop = document.getElementById("gTTop");
@@ -67,3 +67,13 @@ gototop.addEventListener('click', e=>{
     }, 5)
 })
 
+window.onscroll = function(){
+    var timer = setInterval(function(){
+    if(document.documentElement.scrollTop > 300){
+        clickSlide();
+    }
+    else{
+        clearInterval(timer);
+    }
+    },2000);
+}
