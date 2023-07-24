@@ -20,11 +20,17 @@ updateImgByIndex(0);
 listImg.forEach((imgElement, index)=>{
 
     imgElement.addEventListener('click', e=>{
-        updateImgByIndex(index);
+        imgFeat.style.opacity ="0";
+        setTimeout(() => {
+            updateImgByIndex(index);
+            imgFeat.style.opacity ="1";
+        }, 600);
     })
 })
 
 prevBtn.addEventListener('click', e=>{
+
+
     if(currentIndex == 0){
         currentIndex = listImg.length -1;
     }
@@ -32,8 +38,29 @@ prevBtn.addEventListener('click', e=>{
         currentIndex--;
     }
     updateImgByIndex(currentIndex);
+    imgFeat.style.animation = '';
+    imgFeat.style.display = "none";
+    setTimeout(() => {
+        imgFeat.style.display = "block"
+        imgFeat.style.animation = "slideLeft 1s ease-in-out forwards";
+    }, 100);
 })
-var clickSlide = nextBtn.addEventListener('click', e=>{
+nextBtn.addEventListener('click', e=>{
+    if(currentIndex == listImg.length -1){
+        currentIndex = 0;
+    }
+    else{
+        currentIndex++;
+    }
+    updateImgByIndex(currentIndex);
+    imgFeat.style.animation = '';
+    imgFeat.style.display = "none";
+    setTimeout(() => {
+        imgFeat.style.display = "block"
+        imgFeat.style.animation = "slideRight 1s ease-in-out forwards";
+    }, 100);
+})
+var clickSlide = addEventListener('load',e=>{
     if(currentIndex == listImg.length -1){
         currentIndex = 0;
     }
@@ -69,7 +96,7 @@ gototop.addEventListener('click', e=>{
 
 window.onscroll = function(){
     var timer = setInterval(function(){
-    if(document.documentElement.scrollTop > 300){
+    if(document.documentElement.scrollTop < 300){
         clickSlide();
     }
     else{

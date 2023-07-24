@@ -123,8 +123,8 @@
     margin: 80px auto 50px auto;
     background-color: #fff;
     box-sizing: border-box;
-    overflow: hidden;
 }
+
 #slide{
     position: relative;
     display: flex;
@@ -134,6 +134,7 @@
     width: 80%;
     height: 300px;
     margin: 0 auto;
+    overflow: hidden;
 }
 #slide .img-slide{
     transition: 1s;
@@ -167,6 +168,7 @@
 }
 #slider .list-i img{
     padding: 10px;
+    cursor: pointer;
 }
 
 #content{
@@ -308,7 +310,7 @@
         transform: translateX(100%);
     }
     100%{
-        transform: translateX(0%);
+        transform: translateX(0);
     }
 }
 @keyframes slideRight{
@@ -316,7 +318,7 @@
         transform: translateX(-100%);
     }
     100%{
-        transform: translateX(0%);
+        transform: translateX(0);
     }
 }
 
