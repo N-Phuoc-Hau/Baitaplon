@@ -2,24 +2,24 @@
     "id": 1,
     "title": "Trang chủ",
     "href": "#",
-    "icon": "ti-home"
+    "icon": "fa-solid fa-house"
 },
 {
     "id": 2,
     "title": "Học",
     "href": "#",
-    "icon": "ti-clipboard"
+    "icon": "fa-solid fa-chalkboard"
 },
 {
     "id": 3,
     "title": "Lộ trình",
     "href": "#",
-    "icon": "ti-book"
+    "icon": "fa-solid fa-route"
 },
 {
     "id": 4,
     "title": "Blog",
     "href": "#",
-    "icon": "ti-thumb-up"
+    "icon": "fa-solid fa-newspaper"
 }
 ]
