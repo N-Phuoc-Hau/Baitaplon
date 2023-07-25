@@ -41,11 +41,12 @@
 }
 
 #nav li a {
-    text-decoration: none;
+    color: black;
     line-height: 5rem;
-    padding: 0px 2rem;
+    padding: 0px 3rem;
     display: block;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    
 }  
 #nav > li:hover > a{
     color: blue;
@@ -204,9 +205,13 @@
     flex-wrap: wrap;
 }
 .small-forums{
-    width: 32%;
-    margin: 5px 15px 10px 0;
+    width: 30%;
+    margin: 10px 15px;
     border-radius: 16px ;
+    background-color: #e7e7e7;
+    border: 1px solid rgb(187, 187, 187);
+    transition:box-shadow 0.5s;
+    transition:transform 0.5s;
 }
 .ele-for{
     overflow: unset;
@@ -216,6 +221,8 @@
 
 .small-forums:hover{
     box-shadow: 0px 0px 10px 5px rgb(129, 129, 129);
+    transform: scale(1.05);
+
 }
 
 .ele-for .BTN-for{
@@ -261,28 +268,6 @@
 
 
 
-#footer{
-    min-height: 150px;
-    padding:30px 0px 20px 30px ;
-    background-color: black;
-    color: white;
-    margin-top: 10px;
-    position: relative;
-    top: 10px;
-    width: 100%;
-}
-#footer div{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#footer li{
-    list-style-type: none;
-}
-#footer a{
-    text-decoration: none;
-    color: white;
-}
-
 
 #gTTop{
     display: none;
@@ -321,8 +306,7 @@
         transform: translateX(0);
     }
 }
-
-
+/*Phan footer*/
 .grid{
     width: 1200px;
     max-width: 100%;
@@ -345,4 +329,40 @@
     padding-left: 5px;
     padding-right: 5px;
     width: 33.3333%;
+}
+#footer{
+    min-height: 150px;
+    padding:30px 0px 20px 30px ;
+    background-color: black; 
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    width: 100%;
+}
+#footer div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer li{
+    list-style-type: none;
+
+}
+#footer a{
+    text-decoration: none;
+    color: #a9b3bb;
+}
+#footer .footer-list{
+    margin-top: 10px;
+}
+
+#footer .footer-list-item {
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    position: relative;
+}
+#footer .heading{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
 }
