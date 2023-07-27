@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./BTL.css">
+    <link rel="stylesheet" href="./font/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="logo.png" class="icon"/>
     <title>BTL</title>
@@ -28,18 +29,33 @@
                 <a href="link-log-in/log-in.html " class="login-a">Đăng nhập</a>
             </div>
         </div>
-        <div id="slider" class="img-feat">
-            <div id="slide">
-                <img src="images/h1.png" alt="slide1" class="img-slide">
-                <div class="control prev ti-angle-left"></div>
-                <div class="control next ti-angle-right"></div>
-            </div>
-            <div class="list-i">
-                <img src="images/h1.png" alt="">
-                <img src="images/h2.png" alt="">
-                <img src="images/h3.png" alt="">
-                <img src="images/h4.png" alt="">
+        <div id="slider" >
+            <div class="slides">
                 
+                <!-- input -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- images -->
+                <div class="slide first"><img src="./images/h1.png" alt=""></div>
+                <div class="slide"><img src="./images/h2.png" alt=""></div>
+                <div class="slide"><img src="./images/h3.png" alt=""></div>
+                <div class="slide"><img src="./images/h4.png" alt=""></div>
+                <!-- tự động nav -->
+                <div class="navigation-auto">
+                    <div class="atuo-btn1"></div>
+                    <div class="atuo-btn2"></div>
+                    <div class="atuo-btn3"></div>
+                    <div class="atuo-btn4"></div>
+                </div>
+            </div>
+            <!-- chạy bằng cơm nav -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
             </div>
         </div>
         <div id="gTTop">
