@@ -234,6 +234,7 @@
     height: 36px;
     font-size: 24px;
     margin-bottom: 1rem;
+    margin-top: 2rem;
 }
 
 
@@ -312,6 +313,23 @@
     text-decoration: none;
 }
 
+.head-Status{
+    display: flex;
+    align-items: baseline;
+}
+.head-Status>.headd{
+    margin-right: auto;
+}
+.head-Status>a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 4px;
+}
+.head-Status>a:hover{
+    text-decoration: dashed;
+    color: #000;
+    background-color: rgb(255, 104, 22);
+}
 
 
 
@@ -358,6 +376,7 @@
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    font-size: 16px;
 }
 
 .grid-row{
@@ -385,6 +404,7 @@
     position: relative;
     top: 10px;
     width: 100%;
+    font-size: 16px;
 }
 #footer div{
     margin-top: 10px;
@@ -404,12 +424,12 @@
 
 #footer .footer-list-item {
     color: #a9b3bb;
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 2.1rem;
     position: relative;
 }
 #footer .heading{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     color: #fff;
 }
