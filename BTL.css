@@ -111,15 +111,18 @@
     text-decoration: none;
 }
 /* Phần slider */
-#bigslider{
-    position: relative;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-    width: 800px;
-    height: 500px;
-    padding: 0;
-    margin: 0 auto ;
+#slider .prev{
+    left: 10px;
+}
+#slider .next{
+    right: 10px;
+}
+#slider .control{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: #40D3DC;
 }
 #slider{
     position: relative;

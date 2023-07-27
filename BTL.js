@@ -1,18 +1,31 @@
 //JS header
 // slider
 var counter = 1;
+var prevBtn = document.querySelector('.prev')
+var nextBtn = document.querySelector('.next')
+
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;
     counter++;
+    setTimeout(() => {
+        document.getElementById('radio' + counter).checked = true;
+    }, 4000);
     if(counter > 4)
         counter = 1;
 }, 4000)
 
+prevBtn.addEventListener('click', e=>{
+    document.getElementById('radio'+ counter);
+    counter--;
+    document.getElementById('radio'+ counter);
+});
+nextBtn.addEventListener('click', e=>{
+    counter++
+});
 
     // let imgFeat = document.querySelector('.img-slide');
     // let listImg = document.querySelectorAll('.list-i img');
-    // let prevBtn = document.querySelector('.prev')
-    // let nextBtn = document.querySelector('.next')
+    
 
     // let currentIndex = 0;
     // function updateImgByIndex(index){
