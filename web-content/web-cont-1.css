@@ -131,7 +131,8 @@ div.content-top img{
 }
 div.menu{
       position: relative;
-      top: 5px;
+      z-index: 999;
+      top: 0;
       left: 0;
       right: 0;
 }
@@ -207,11 +208,11 @@ img {
 }
 .sign-up input[type=submit]{
     background-color: #001860;
-    width: 100%;
+    width: 90%;
     color: white;
     text-transform: uppercase;
-    margin-bottom: 30px;
-    margin-top: 20px;
+    margin: 20px 5% 30px;
+    border-radius: 5px;
     padding: 10px;
 }
 
