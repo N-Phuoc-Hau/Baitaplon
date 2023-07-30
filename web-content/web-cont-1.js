@@ -34,3 +34,8 @@ gototop.addEventListener('click', e=>{
         clearInterval(timer);
     }, 5)
 })
+
+const Submit = document.querySelector(".submit");
+Submit.addEventListener("click", (e) => {
+        alert("Đăng kí thành công")
+});
