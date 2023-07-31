@@ -38,3 +38,9 @@ window.onscroll = function(){
     }
 }
 //JSGoToTop
+
+//Mũi tên
+$(document).ready(function(){
+    //Tìm tất cả li có menu con và thêm class has-child cho nó
+    $('.sub-menu').parent('li').addClass('has-child');
+});

@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    background-color: #ffffff;
+}
 .col-lg-6 {
     width: 50%;
 }
@@ -124,10 +127,12 @@ section{
 }
 div.content-top   {
     width: 100%;
+
     margin: 10px auto;
 }
 div.content-top img{
     width: 100%;
+    object-fit: unset;
 }
 div.menu{
       position: relative;
@@ -136,39 +141,97 @@ div.menu{
       left: 0;
       right: 0;
 }
-div.menu > ul{
+div.menu ul{
     display: flex;
     justify-content: space-around;
-    background-color: antiquewhite;
-  
+    background-color: #e1dddb;
+    box-shadow: 0px 5px 5px 1px rgb(129, 129, 129);
+    border-bottom: 1px solid #e1dddb;
 }
 div.menu li{
     list-style-type: none;
     text-align: center;
-
+    position: relative;
 }
 div.menu li > a{
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 15px 20px;
     color: black;
 }
 
-.menu li > ul{
-    padding: 30px;
-    background-color: #a9b3bb;
-    display:flex;
-    flex-direction: column;
+.menu ul.sub-menu{
     position: absolute;
-    opacity: 0;
-    transition: 1s opacity ;
+    padding: 15px 0;
+    background-color: #f4eeeb;
+    width: 200px;
+    left: 0px;
+    border: 1px solid #b7b7b7;
+    display: none;
 }
-.menu li > a:hover{
-    opacity: 1;
+.menu li:hover > .sub-menu{
+    display: block;
+}
+.menu ul.sub-menu ul.sub-menu{
+    left: 199px;
+    top: -12px;
+}
+.menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 2px solid #a2a2a2;
+}
+.menu ul.sub-menu li:hover > a{
+    border-bottom: 2px solid rgb(73, 73, 73);
+    color: red;
+}
+.menu li > ul.sub-menu li:last-child > a{
+    border:none;
+    padding-bottom: 0;
+    padding-top: 5px;
 }
 .menu li > ul > li{
     margin-bottom: 10px ;
 }
+/*Thiết lập border cho after*/
+.main-menu > li > a{
+    position: relative;
+}
+.main-menu > li > a::before{
+    content: "";
+    height: 4px;
+    width: 00;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    margin-left: -10px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+.main-menu > li:hover > a::before{
+    width: 100%;
+}
+.main-menu >li.has-child::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color:#7e7d7d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 0;
+}
+
+.main-menu .sub-menu > li.has-child::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    color:#7e7d7d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px 15px;
+}
+
+
 .subject .image{
     width: 60%;
     margin: 0 auto;  
@@ -223,7 +286,7 @@ img {
     justify-content: center;
 }
 div.title{
-    background-color: #e7e7e7;
+    background-color: #f2f0ef;
     font-size: 35px;
     text-align: center;
     padding: 10px;
@@ -280,6 +343,16 @@ div.title{
         transform: translateY(0px);
     }
 }
+@keyframes move-up{
+    50%
+    {
+    transform: translateY(-15px);
+    }
+    100%
+    {
+    transform: translateY(0px);
+    }
+}
 .tab-content{
     margin-bottom: 200px;
 }
@@ -311,8 +384,11 @@ section div.section-title .section-img{
     text-align: center;
     padding: 30px 20px;
     height: 100%;
-    background-color: #f8f8fb;
+    background-color: #f2f0ef;
     position: relative;
+}
+.single-tutor:hover{
+    animation: move-up 2s infinite;
 }
 .one{
     margin-top: -30px;
@@ -336,7 +412,7 @@ section div.section-title .section-img{
 }
 
 .area{
-    background-color: #ececec;
+    background-color: #f5f6fa;
 }
 .container{
     width: 60%;
@@ -345,6 +421,10 @@ section div.section-title .section-img{
 .single-achieve {
     text-align: center;
     margin-bottom: 30px;
+    margin-left: 10px;
+}
+.single-achieve:hover{
+    animation: move-up 2s infinite;
 }
 .single-achieve .achieve-shape {
     position: relative;
@@ -362,6 +442,11 @@ section div.section-title .section-img{
     object-fit: contain;
     padding: 30px;
 }
+.single-achieve p{
+    line-height: 24px;
+    text-align: center;
+}
+
 #gTTop{
     display: none;
     position: fixed;
