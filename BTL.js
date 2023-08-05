@@ -113,6 +113,12 @@ gototop.addEventListener('click', e=>{
     }, 5)
 })
 
+const logout = document.querySelector(".logout-a");
+logout.addEventListener("click", (e) => {
+        alert("Đăng xuất thành công");
+        window.location.href = "BTL.html";
+});
+
 // window.onscroll = function(){
 //     var timer = setInterval(function(){
 //     if(document.documentElement.scrollTop < 300){

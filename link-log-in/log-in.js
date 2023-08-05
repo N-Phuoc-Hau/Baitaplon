@@ -31,6 +31,7 @@ btnLogin.addEventListener("click", (e) => {
       window.location.href = "../BTLlater.html";
     } else {
       alert("Đăng Nhập Thất Bại");
+      window.location.href = "./log-in.html";
     }
   }
 });
