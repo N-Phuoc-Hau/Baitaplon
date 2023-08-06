@@ -1,0 +1,29 @@
+[
+    {
+    "src": "../images/status1.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/tinhocmo/posts/pfbid02iu7ExxSaXE5i8xNcGHCtGhPWgCh3Bb4fV64FroLUoHzbBiictPZYNYfjWFrmyZal",
+    "name": "Buổi Seminar UNDERSTANDING IDIOMS AND PHRASAL VERBS sắp diễn ra!!! ",
+    "cont": "Đến tham dự buổi seminar, bạn sẽ được trải nghiệm một hành trình thú vị khám phá những ngôn ngữ giao tiếp hàng ngày và những cấu trúc ngữ pháp thông qua những ví dụ cụ thể và hài hước cùng với thầy Dillan Pruett - Giảng viên tiếng Anh đến từ trung tâm Anh ngữ Wall Street English. Thật thú vị phải không nào?"
+},
+{
+    "src": "../images/status2.png",
+    "alt": "CNTT",
+    "href": "https://www.facebook.com/groups/forum.iter/posts/659422729443173",
+    "name": "SỬ DỤNG CÔNG NGHỆ TRONG VIỆC TẠO RA NỘI DUNG ĐA PHƯƠNG TIỆN",
+    "cont": "Konnichiwa👋 Hôm nay mình rất vui khi được chia sẻ thêm về cách sử dụng công nghệ trong thời đại công nghệ số. Ngày nay, nội dung đa phương tiện đang trở thành xu hướng không thể thiếu. Với sự phát triển của công nghệ, chúng ta có cơ hội tạo ra những trải nghiệm tuyệt vời thông qua sự kết hợp của hình ảnh, âm thanh, và nội dung tương tác. Hãy cùng mình khám phá nhé!"
+},
+{
+    "src": "../images/status3.png",
+    "alt": "ảnh status",
+    "href": "https://vnexpress.net/noi-dung-ai-se-duoc-danh-dau-watermark-4632788.html",
+    "name": "Nội dung AI sẽ được đánh dấu watermark",
+    "cont": "Sự kiện có sự tham gia của đại diện những công ty lớn về trí tuệ nhân tạo như OpenAI, Google, Meta, Anthropic, Inflection, Amazon, Microsoft. Họ sẽ cùng phát triển một công cụ đánh dấu watermark tự động cho tất cả định dạng từ văn bản, âm thanh đến ảnh, video để người dùng phân biệt được nội dung do con người hay AI tạo ra dễ dàng hơn. Hiện các bên chưa bàn về cách watermark sẽ được hiển thị thế nào."
+},
+{
+    "src": "../images/status4.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/photo/?fbid=10159938307473821&set=gm.9564907946912824&idorvanity=3059387787464905",
+    "name": "Chuyển đổi website từ Python sang Rust.",
+    "cont": "Chuyển đổi website từ Python sang Rust. Sau khi viết thêm code Rust sao cho phiên bản Rust có đủ tính năng như phiên bản Python, thì nhìn lại thấy rằng lượng code Rust đã hơn gấp đôi lượng code Python. Lý do là Rust còn thiếu thư viện để tích hợp nhiều thư viện khác với nhau quá, khiến mình phải tự viết nhiều."
+}]
