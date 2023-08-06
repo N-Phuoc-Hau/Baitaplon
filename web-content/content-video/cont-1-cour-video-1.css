@@ -34,7 +34,6 @@ body{
     display: flex;
 }
 
-
 #header .logo img{
     height: 6rem;
 }
@@ -231,82 +230,50 @@ div.menu li > a{
     right: 0;
     padding: 7px 15px;
 }
-
 /*phần nội dung*/
-
-/*tiêu đề trên*/
-div.title-list > h1{
+.content-title{
     font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px gray;
 }
-.title-list .sub-list{
-    display: flex;
-    list-style-type: none;
+.content-video{
+    text-align: center;
 }
-.title-list .sub-list > li{
-    padding: 1rem;
+#next-lesson{
+    text-align: center;
 }
-/*tiêu đề và bài học*/
-.wrapper {
-    margin: 12px 0 48px;
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
 }
-.list-contents .list-content{
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    margin-bottom: 8px;
-}
-.unit{
-    background: #f5f5f5;
-    border: 1px solid #ebebeb;
-    border-radius: 6px;
-    padding: 0;
-    top: 147px;
-    z-index: 1;
-}
-.unit-title {
-    color: inherit;
+  .progress-container {
+    width: 50%;
+   margin: 48px 0;
+  }
+  
+  .progress-text {
+    margin-top: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
     font-size: 16px;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-.headline {
-    font-size: 1.6rem;
-    font-weight: 400;
-    overflow: hidden;
-    padding: 14px 30px 14px 48px;
-    position: relative;
-}
-.headline #button-1, #button-2, #button-3, #button-4{
-    color: red;
-}
-
-.headline-left {
-    float: left;
-}
-.headline-right {
-    float: right;
-}
-.unit-lesson{
-    display: block;
-}
-.lessons-1, .lessons-2, .lessons-3, .lessons-4{
-    padding: 0;
-    display: none;
-}
-.lesson {
-    border-bottom: 1px solid rgba(3, 3, 3, 0.2);
-    color: var(--text-color);
-    font-size: 1.4rem;
-    line-height: 48px;
-    overflow: hidden;
-    padding: 0 30px 0 48px;
-    position: relative;
-}
-.lesson-name{
+    background-color: #f05123;
+    border: none;
+    cursor: pointer;
+  }
+#next-lesson button a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
-
+#next-lesson button:hover {
+    background-color: darkblue;
+}
+#reset{
+    border-radius: 360px;
+}
 /*footer*/
 .grid{
     width: 1200px;
