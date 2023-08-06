@@ -97,7 +97,6 @@
 #nav-action a{
     text-decoration: none;
 }
-/*Phần nội dung */
 .ABC{
     margin: 0 auto;
     box-sizing: inherit;
@@ -120,62 +119,9 @@
 }
 #content .content-bottom{
     width: 100%;
-}
-#content .forums{
-    width: 77%;
-}
-#content .forums .sml{
-    padding: 0 64px 44px 0;
-}
-.wrap{
-    border: 2px solid #ece9e9;
-    border-radius: 16px;
-    margin-top: 15px;
-    padding: 24px;
-    display: flex;
-}
-.left{
-    margin-right: 30px;
-}
-.left>img{
-    height: 180px;
-}
-.right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}   
+/*Phần nội dung */
 
-}
-.right a{
-    text-decoration: none;
-    color: #000;
-}
-.right p{
-    margin-top: 20px;
-    color: #292726;
-}
-
-.fixed{
-    position: fixed;
-}
-
-#content .ADS{
-    width: 23%;
-    position: fixed;
-    right: 10%;
-}
-#content .ADSm{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 6px;
-    width: 100%;
-    border: 2px solid #292726;
-    border-radius: 10px;
-}
-#content .ADSm img{
-    height: 30px;
-}
 
 #gTTop{
     display: none;
@@ -223,7 +169,7 @@
     min-height: 150px;
     padding:30px 20px 20px 20px ;
     background-color: black; 
-    margin-top: 10px;
+    margin-top: 100px;
     position: relative;
     top: 10px;
     width: 100%;

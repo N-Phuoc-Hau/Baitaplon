@@ -58,8 +58,56 @@ function loadstatus(){
         d.innerHTML += re;
     })
 }
+function loadforumspro(){
+    fetch("forumspro.json").then(res => res.json()).then(data =>{
+        let d = document.getElementById("json-forums-pro");
+        let re = "";
+        for (let c of data)
+        re += `
+                 <section class="small-forums">
+                     <div class="ele-for">
+                         <a href="${c.href}" class="href">
+                             <button class="BTN-for">
+                                 Xem khóa học
+                             </button>
+                             <img class="img-for" src="${c.src}" alt="${c.alt}">
+                         </a>
+                         <h3>
+                             <a class="a-deco" href="${c.href}">${c.name}</a>
+                         </h3>
+                     </div>
+                 </section>`;
+
+        d.innerHTML += re;
+    })
+}
+function loadforumsnor(){
+    fetch("forumsnor.json").then(res => res.json()).then(data =>{
+        let d = document.getElementById("json-forums-nor");
+        let re = "";
+        for (let c of data)
+        re += `
+                 <section class="small-forums">
+                     <div class="ele-for">
+                         <a href="${c.href}" class="href">
+                             <button class="BTN-for">
+                                 Xem khóa học
+                             </button>
+                             <img class="img-for" src="${c.src}" alt="${c.alt}">
+                         </a>
+                         <h3>
+                             <a class="a-deco" href="${c.href}">${c.name}</a>
+                         </h3>
+                     </div>
+                 </section>`;
+
+        d.innerHTML += re;
+    })
+}
 
 
 window.onload = () => {
     loadstatus();
+    loadforumsnor();
+    loadforumspro();
 }
