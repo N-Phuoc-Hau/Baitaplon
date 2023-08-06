@@ -7,7 +7,7 @@
 {
     "id": 2,
     "title": "Học",
-    "href": "#",
+    "href": "web-navi/KhoaHoc.html",
     "icon": "fa-solid fa-chalkboard"
 },
 {
@@ -19,7 +19,7 @@
 {
     "id": 4,
     "title": "Blog",
-    "href": "#",
+    "href": "web-navi/Blog.html",
     "icon": "fa-solid fa-newspaper"
 }
 ]
