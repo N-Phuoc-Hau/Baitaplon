@@ -1,12 +1,12 @@
 [{
     "id": 1,
     "title": "Trang chủ",
-    "href": "#",
+    "href": "BTL.html",
     "icon": "fa-solid fa-house"
 },
 {
     "id": 2,
-    "title": "Học",
+    "title": "Khóa học",
     "href": "web-navi/KhoaHoc.html",
     "icon": "fa-solid fa-chalkboard"
 },

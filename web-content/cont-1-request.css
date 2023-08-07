@@ -34,7 +34,6 @@ body{
     display: flex;
 }
 
-
 #header .logo img{
     height: 6rem;
 }
@@ -231,30 +230,114 @@ div.menu li > a{
     right: 0;
     padding: 7px 15px;
 }
+/* Phần nội dung */
+.b1{
+    background-image: url(../images/background-request.jpg);
+}
+.title-content{
+    position: relative;
+    margin-top: -10px;
+}
+.title-content h2{
+    margin-bottom: 15px;
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+}
+.title-content ul{
+    padding-left: 0;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+.title-content ul li {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    padding-right: 15px;
+    margin-left: 15px;
+    color: black;
+}
 
-/*Phần nội dung*/
-div.container{
-    display: flex;
-    margin: 2rem;
+.title-background{
+    position: relative;
+    overflow: hidden;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
 }
-div.container > .image{
-    width: 30%;
-   
-} 
-img{
+.title-background::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background-color: #f5f6fa;
+    opacity: 0.8;
+    z-index: -1;
 }
-.container .content{
-    width: 65%;
-    margin-left: 5rem;
+
+.content{
+    overflow: hidden;
+    background-color: #ebeef5;
 }
-.container .content p{
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+.content-area{
+    width: 100%;
+    margin: 0 auto;
 }
-.container .content li{
-    padding: 0.5rem;
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
 }
+.image{
+    background-image: url(../images/education-img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.image img{
+  display: none;
+}
+.content-detail{
+    max-width: 510px;
+    margin-left: 80px;
+    margin-top: -5px;
+    margin-bottom: -3px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.top-title{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+.content-detail h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.content-detail p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.list li{
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+.list li:first-child{
+    margin-top: 10px;
+}
+
 /*footer*/
 .grid{
     width: 1200px;
@@ -279,6 +362,11 @@ img{
     padding-left: 5px;
     padding-right: 5px;
     width: 33.3333%;
+}
+.grid-col-6-0{
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #footer{
     min-height: 150px;
