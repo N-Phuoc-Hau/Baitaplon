@@ -1,0 +1,331 @@
+/* css cho cont-course và cont-ex */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+.col-lg-6 {
+    width: 50%;
+}
+.col-lg-20{
+    width: 20%;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+/*Menu trên*/
+#header {
+    height: 80px;
+    background-color: #ece9e9;
+    font-size: 1.2rem;
+    z-index: 1;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0 32px;
+}
+
+#nav{
+    display: flex;
+}
+
+
+#header .logo img{
+    height: 6rem;
+}
+#header .logo{
+  display: flex;
+    margin-top: 0;
+}
+
+#nav li{
+    list-style-type: none;
+}
+
+#nav li a {
+    color: black;
+    line-height: 5rem;
+    padding: 0px 3rem;
+    display: block;
+    font-size: 1.5rem;
+}  
+#nav > li:hover > a{
+    color: blue;
+    background-color: #aaa3a3;
+    border-bottom: blue solid 3px;
+    font-weight: 700;
+}
+#header #bignav{
+    padding-left: 100px;
+    display: block;
+}
+#header #bignav{
+    display: block;
+}
+#header #nav  li :hover{
+    background: lightgray;
+}
+#header .search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0;
+}
+#search-box{
+    background-color: #fff;
+    width: 400px;
+    margin-left: 1rem;
+    border-radius: 20px;
+    width: 300px;
+}
+#search-box .search-input{
+    width: 250px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 7px 15px;
+    font-size: 16px;
+}
+
+#search-box .search-btn{
+    background-color: #fff;
+    border: none;
+    padding: 9.2px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#nav-action{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1;
+}
+#nav-action .login-a{
+    width: 115px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 999px;
+    background-color: rgb(255, 104, 22);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 9px 20px;
+}
+#nav-action a{
+    text-decoration: none;
+}
+/*Menu dưới*/
+section{
+    margin:auto;
+    max-height: 5000px;
+}
+div.content-top   {
+    width: 100%;
+
+    margin: 10px auto;
+}
+div.content-top img{
+    width: 100%;
+    object-fit: unset;
+}
+div.menu{
+      position: relative;
+      z-index: 999;
+      top: 0;
+      left: 0;
+      right: 0;
+}
+div.menu ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e1dddb;
+    box-shadow: 0px 5px 5px 1px rgb(129, 129, 129);
+    border-bottom: 1px solid #e1dddb;
+}
+div.menu li{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+}
+div.menu li > a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    color: black;
+}
+
+.menu ul.sub-menu{
+    position: absolute;
+    padding: 15px 0;
+    background-color: #f4eeeb;
+    width: 200px;
+    left: 0px;
+    border: 1px solid #b7b7b7;
+    display: none;
+}
+.menu li:hover > .sub-menu{
+    display: block;
+}
+.menu ul.sub-menu ul.sub-menu{
+    left: 199px;
+    top: -12px;
+}
+.menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 2px solid #a2a2a2;
+}
+.menu ul.sub-menu li:hover > a{
+    border-bottom: 2px solid rgb(73, 73, 73);
+    color: red;
+}
+.menu li > ul.sub-menu li:last-child > a{
+    border:none;
+    padding-bottom: 0;
+    padding-top: 5px;
+}
+.menu li > ul > li{
+    margin-bottom: 10px ;
+}
+/*Thiết lập border cho after*/
+.main-menu > li > a{
+    position: relative;
+}
+.main-menu > li > a::before{
+    content: "";
+    height: 4px;
+    width: 00;
+    background: red;
+    position: absolute;
+    bottom: 0;
+    margin-left: -10px;
+    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+.main-menu > li:hover > a::before{
+    width: 100%;
+}
+.main-menu >li.has-child::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    color:#7e7d7d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 0;
+}
+
+.main-menu .sub-menu > li.has-child::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    color:#7e7d7d;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px 15px;
+}
+
+/*phần nội dung*/
+.container{
+    display: block;
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+.content{
+    border: 2px solid #e6e6e6;
+}
+.content h3{
+    padding: 30px;
+    border-bottom: 1px solid #bebebe;
+    margin-bottom: 0;
+}
+.content-title{
+    padding: 30px;
+}
+.content-title p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.content-title p:last-child{
+    margin-bottom: 0;
+}
+.content-list h4{
+    font-size: 18px;
+    padding: 20px 30px;
+    margin: 0;
+    background-color: #f8f8f8;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+/*footer*/
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+    justify-content: flex-end;
+}
+
+.grid-col-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.3333%;
+}
+.grid-col-4-0{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.3333%;
+}
+#footer{
+    min-height: 150px;
+    padding:30px 0px 20px 30px ;
+    background-color: black; 
+    margin-top: 10px;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    z-index: 90;
+}
+#footer div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer li{
+    list-style-type: none;
+
+}
+#footer a{
+    text-decoration: none;
+    color: #a9b3bb;
+}
+#footer .footer-list{
+    margin-top: 10px;
+}
+
+#footer .footer-list-item {
+    color: #a9b3bb;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    position: relative;
+}
+#footer .heading{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
