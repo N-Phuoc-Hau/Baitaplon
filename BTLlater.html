@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./BTL.css">
-    <link rel="stylesheet" href="./font/font/themify-icons/themify-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="logo.png" class="icon"/>
     <title>BTL</title>
@@ -13,12 +13,59 @@
     <script src="./data/categories.js"></script>
     <div id="main">
         <div id="header">
+            <div class="logo"><img src="logo-black.png" alt="logo"></div>
             <div class="search">
-                <div class="logo"><img src="logo-black.png" alt="logo"></div>
-                <form action="" id="search-box">
-                    <input type="text" class="search-input" placeholder="Tìm kiếm khóa học">
-                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>   
+                <div class="container">
+                    <form id="search-box">
+                        <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form> 
+                    <div class="course-list" id="course-list">
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>HTML</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>CSS</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>JAVA</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>Hau</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>Nhu</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>Quan</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                </div>
+                </div>  
+                
             </div>
            <div id="bignav">
                 <ul id="nav">

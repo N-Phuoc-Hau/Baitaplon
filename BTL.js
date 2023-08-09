@@ -142,3 +142,43 @@ logout.addEventListener("click", (e) => {
 //     }
 //     },2000);
 // }
+
+
+$(document).ready(function(){
+    if( $('#search-item').focus(function(){
+            $('.search').removeClass('search').addClass('search1')
+            $('.course-list').css('display','block')
+        }
+    ));
+});
+
+$(document).ready(function(){
+    if( $('#search-item').blur(function(){
+        $('.search1').removeClass('search1').addClass('search')
+        $('.course-list').css('display','none')
+    }
+    ));
+});
+//search
+const search = () => {
+    const searchbox = document.getElementById("search-item").value.toUpperCase();
+    const storeitems = document.getElementById("course-list")
+    const course = document.querySelectorAll(".course")
+    const name = document.getElementsByTagName("h2")
+
+    for (var i=0; i < name.length; i++){
+        let match = course[i].getElementsByTagName('h2')[0];
+
+        if(match)
+        {
+            let textvalue = match.textContent || match.innerHTML
+            if(textvalue.toUpperCase().indexOf(searchbox) > -1 )
+            {
+                course[i].style.display ="";
+            }
+            else{
+                course[i].style.display ="none";
+            }
+        }
+    }
+}
