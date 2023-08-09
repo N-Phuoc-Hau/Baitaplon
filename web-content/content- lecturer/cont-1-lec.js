@@ -1,3 +1,4 @@
+//Giữ thanh menu
 window.onscroll = function(){
     console.info(document.body.scrollTop)
     var headmenu = document.getElementById('headmenu');
@@ -32,6 +33,7 @@ $(document).ready(function(){
         }
     });
 });
+
 $(document).ready(function(){
     $('#button-2').click(function(){
         $(this).toggleClass('open')
@@ -46,6 +48,7 @@ $(document).ready(function(){
         }
     });
 });
+
 $(document).ready(function(){
     $('#button-3').click(function(){
         $(this).toggleClass('open')
@@ -60,6 +63,7 @@ $(document).ready(function(){
         }
     });
 });
+
 $(document).ready(function(){
     $('#button-4').click(function(){
         $(this).toggleClass('open')
@@ -75,7 +79,7 @@ $(document).ready(function(){
     });
 });
 
-
+//Theo dõi quá trình học
 
 let progress = 10;
 const progressText = document.getElementById('progressText');
