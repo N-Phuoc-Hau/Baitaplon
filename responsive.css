@@ -1,0 +1,60 @@
+/* PC */
+@media (min-width: 1024px ){
+    
+}
+
+
+/* tablet */
+@media (min-width: 740px ) and (max-width: 1024px) {
+    #content{
+        width: 100%;
+    }
+    .small-forums{
+        margin: 8px 8px
+    }
+    #search-box{
+        width: 200px;
+    }
+    #search-box .search-input{
+        width: 150px;
+    }
+    #bignav{
+        padding-left: 10px;
+    }
+    #nav li a {
+        padding: 0 2rem;
+    }
+    #gTTop a{
+        font-size: 16px;
+        padding: 14px 18px;
+    }
+
+}
+/* MB */
+@media (max-width: 740px ){
+    #content{
+        width: 100%;
+    }
+    #header{
+        padding: 0;
+    }
+    .small-forums{
+        margin: 8px 8px
+    }
+    #search-box{
+        width: 125px;
+    }
+    #search-box .search-input{
+        width: 75px;
+    }
+    #bignav{
+        padding-left: 5px;
+    }
+    #nav li a {
+        padding: 0 1.5rem;
+    }
+    #gTTop a{
+        font-size: 16px;
+        padding: 14px 18px;
+    }
+}

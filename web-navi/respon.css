@@ -1,0 +1,51 @@
+/* PC */
+@media (min-width: 1024px ){
+    
+}
+
+
+/* tablet */
+@media (min-width: 740px ) and (max-width: 1024px) {
+    #header #bignav{
+        margin-left: 100px;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #footer{
+        width: 98%;
+        padding: 1%;
+    }
+    #content{
+        width: 95%;
+    }
+}
+/* MB */
+@media (max-width: 740px ){
+    #header #bignav{
+        margin-left: 10%;
+    }
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    .right p{
+        display: none;
+    }
+    #footer{
+        width: 98%;
+        padding: 1%;
+    }
+    #content{
+        width: 95%;
+    }
+    #footer .footer-list-item {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+    }
+    #footer .heading{
+        font-size: 1.4rem;
+    }
+}

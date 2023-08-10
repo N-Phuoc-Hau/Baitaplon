@@ -171,8 +171,13 @@
     </div>
  
 </body>
-<script src="BTL.js">
-
+<script src="BTL.js"></script>
+<script>
+    const logout = document.querySelector(".logout-a");
+logout.addEventListener("click", (e) => {
+        alert("Đăng xuất thành công");
+        window.location.href = "BTL.html";
+});
 </script>
 </html>
 

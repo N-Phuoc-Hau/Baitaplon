@@ -14,15 +14,6 @@ setInterval(function(){
         counter = 1;
 }, 4000)
 
-prevBtn.addEventListener('click', e=>{
-    document.getElementById('radio'+ counter);
-    counter--;
-    document.getElementById('radio'+ counter);
-});
-nextBtn.addEventListener('click', e=>{
-    counter++
-});
-
     // let imgFeat = document.querySelector('.img-slide');
     // let listImg = document.querySelectorAll('.list-i img');
     
@@ -113,11 +104,7 @@ gototop.addEventListener('click', e=>{
     }, 5)
 })
 
-const logout = document.querySelector(".logout-a");
-logout.addEventListener("click", (e) => {
-        alert("Đăng xuất thành công");
-        window.location.href = "BTL.html";
-});
+
 
 // window.onscroll = function(){
 //     var timer = setInterval(function(){
