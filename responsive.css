@@ -68,6 +68,9 @@
         display: flex;
         flex-wrap: nowrap;
     }
+    .nor .forums{
+        width: 1500px;
+    }
     #content{
         width: 100%;
     }
@@ -76,13 +79,35 @@
     }
 
     #bignav{
+        position: fixed;
+        top: 75px;
+        left: 0;
+        right: 0;
         padding-left: 5px;
     }
+    #nav{
+        justify-content: space-evenly;
+    }
+    #slider{
+        margin: 165px auto;
+    }
+    .slide img{
+        width: 550px;
+    }
     #nav li a {
-        padding: 0 1.5rem;
+        padding: 0 1rem;
     }
     #gTTop a{
         font-size: 16px;
         padding: 14px 18px;
+    }
+    .mid{
+        display: none;
+    }
+    .grid-col-4-0{
+        width: 40%;
+    }
+    .grid-row{
+        justify-content: space-between;
     }
 }

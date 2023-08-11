@@ -24,7 +24,10 @@
 /* MB */
 @media (max-width: 740px ){
     #header #bignav{
-        margin-left: 10%;
+        margin-left: 5%;
+    }
+    #nav li a{
+        padding: 0px 10px;
     }
     .wrap{
         flex-wrap: wrap;
