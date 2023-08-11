@@ -140,8 +140,6 @@
     flex: 1 1;
 }
 #nav-action .login-a{
-    width: 115px;
-    height: 35px;
     font-size: 14px;
     border-radius: 999px;
     background-color: rgb(255, 104, 22);

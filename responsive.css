@@ -32,21 +32,49 @@
 }
 /* MB */
 @media (max-width: 740px ){
+    #header{
+        display: block;
+    }
+    .cont{
+        overflow-x: scroll;
+    }
+    .search{
+        margin-left: -30px;
+    }
+    #search-box{
+        width: 180px;
+        margin-left: -8px;
+    }
+    #search-box .search-input{
+        width: 90px;
+    }
+    .search-btn{
+        margin-left: 40px;
+    }
+    #bignav{
+        background-color: #ece9e9;
+    }
+    #nav-action{
+        right: 5px;
+        top: 26px;
+        position: absolute;
+    }
+    #nav-action .login-a{
+        padding: 10px;
+        font-size: 11px;
+    }
+    .forums{
+        width: 1200px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
     #content{
         width: 100%;
-    }
-    #header{
-        padding: 0;
     }
     .small-forums{
         margin: 8px 8px
     }
-    #search-box{
-        width: 125px;
-    }
-    #search-box .search-input{
-        width: 75px;
-    }
+
     #bignav{
         padding-left: 5px;
     }

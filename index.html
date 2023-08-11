@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="font/font/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./BTL.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="logo.png" class="icon"/>
     <title>BTL</title>
@@ -13,12 +14,59 @@
     <script src="./data/categories.js"></script>
     <div id="main">
         <div id="header">
+            <div class="logo"><img src="logo-black.png" alt="logo"></div>
             <div class="search">
-                <div class="logo"><img src="logo.png" alt="logo"></div>
-                <form action="" id="search-box">
-                    <input type="text" class="search-input" placeholder="Tìm kiếm khóa học">
-                    <button class="search-btn"><i class="ti-search"></i></button>
-                </form>   
+                <div class="container">
+                    <form id="search-box">
+                        <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form> 
+                    <div class="course-list" id="course-list">
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>HTML</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>CSS</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>JAVA</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>Hau</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>Nhu</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                    <div class="course">
+                        <img src="./images/hoc-sinh.png" alt="">
+                        <div class="detail">
+                            <h2>Quan</h2>
+                            <h3>Miễn phí</h3>
+                        </div>
+                    </div>
+                </div>
+                </div>  
+                
             </div>
            <div id="bignav">
                 <ul id="nav">
@@ -26,42 +74,48 @@
            </div>
             
             <div id="nav-action">
-                <a href="link-log-in/log-in.html " class="login-a">Đăng nhập</a>
+                <input type="submit" class="logout-a" value="Đăng xuất">
             </div>
         </div>
-        <div id="slider">
-            <div id="slide">
-                <img src="images/h1.png" alt="slide1" class="img-slide">
+        <div id="slider" >
+            <div class="slides">
                 <div class="control prev ti-angle-left"></div>
                 <div class="control next ti-angle-right"></div>
+                <!-- input -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!-- images -->
+                <div class="slide first"><img src="./images/h1.png" alt=""></div>
+                <div class="slide"><img src="./images/h2.png" alt=""></div>
+                <div class="slide"><img src="./images/h3.png" alt=""></div>
+                <div class="slide"><img src="./images/h4.png" alt=""></div>
+                <!-- tự động nav -->
+                <div class="navigation-auto">
+                    <div class="atuo-btn1"></div>
+                    <div class="atuo-btn2"></div>
+                    <div class="atuo-btn3"></div>
+                    <div class="atuo-btn4"></div>
+                </div>
             </div>
-            <div class="list-i">
-                <img src="images/h1.png" alt="">
-                <img src="images/h2.png" alt="">
-                <img src="images/h3.png" alt="">
-                <img src="images/h4.png" alt="">
-                
+            <!-- chạy bằng cơm nav -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
             </div>
+        </div>
+        <div id="gTTop">
+            <a href="javascript:;"><i class="ti-angle-double-up"></i></a>
         </div>
         <div id="content">
             <div id="top-content">
                 <div class="LT pro">
                     <h2 class="headd">Khóa học Pro<span class="plus">NEW<i class="ti-star"></i></span></h2>
                     <div class="cont">
-                        <section class="forums" id="json-forums-pro">
-                            <section class="small-forums">
-                                <div class="ele-for">
-                                    <a href="#" class="href">
-                                        <button class="BTN-for">
-                                            Xem khóa học
-                                        </button>
-                                        <img class="img-for" src="./images/contpro1.png" alt="#">
-                                    </a>
-                                    <h3>
-                                        <a class="a-deco" href="#">BTL</a>
-                                    </h3>
-                                </div>
-                            </section>
+                        <section class="forums" id="json-forums-pro"></section>
                         </section>
                     </div>
                 </div>
@@ -69,6 +123,15 @@
                     <h2 class="headd">Khóa học miễn phí<span class="plus pad"><i class="ti-crown"></i></span></h2>
                     <div class="cont">
                         <section class="forums" id="json-forums-nor"></section>
+                    </div>
+                </div>
+                <div class="Status">
+                    <div class="head-Status">
+                        <h2 class="headd">Bài đăng nổi bật<span class="plus pad"><i class="ti-comment-alt"></i></span></h2>
+                        <a href="#" class="right-Sta">Xem tất cả<span class="ti-angle-right"></span></a>
+                    </div>
+                    <div class="cont">
+                        <section class="forums" id="json-status"></section>
                     </div>
                 </div>
             </div>
@@ -80,7 +143,15 @@
         <div id="footer">
            <div class="grid">
                 <div class="grid-row">
-                    <div class="grid-col-2-4">
+                    <div class="grid-col-4-0">
+                        <h3 class="heading">Liên hệ</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item"><a href="tel:0389283943"><i class="fa-solid fa-phone"></i> Liên hệ: 0389283943</a></li>
+                            <li class="footer-list-item"><a href="mailto:goldenfarm.vn@gmail.com"><i class="fa-solid fa-envelope"></i> Email: goldenfarm.vn@gmail.com</a></li>
+                            <li class="footer-list-item">Địa chỉ: Số 26 Dương Đình Nghệ, Phường Yên Hòa, Quận Cầu Giấy, TP. Hà Nội</li>
+                        </ul>
+                    </div>
+                    <div class="grid-col-4-0">
                         <h3 class="heading">Item 001</h3>
                         <ul class="footer-list">
                             <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
@@ -88,45 +159,28 @@
                             <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
                         </ul>
                     </div>
-                    <div class="grid-col-2-4">
-                        <h3 class="heading">Item 001</h3>
+                    <div class="grid-col-4-0">
+                        <h3 class="heading">Golden Farm</h3>
                         <ul class="footer-list">
-                            <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                            <li class="footer-list-item">Ngày thành lập: 04/03/2022</li>
+                            <li class="footer-list-item">Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng.</li>
                         </ul>
                     </div>
-                    <div class="grid-col-2-4">
-                        <h3 class="heading">Item 001</h3>
-                        <ul class="footer-list">
-                            <li class="footer-list-item"><a href="tel:0389283943"><i class="fa-solid fa-phone"></i>Liên hệ: 0389283943</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
-                        </ul>
-                    </div>
-                    <div class="grid-col-2-4">
-                        <h3 class="heading">Item 001</h3>
-                        <ul class="footer-list">
-                            <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
-                        </ul>
-                    </div>
-                    <div class="grid-col-2-4">
-                        <h3 class="heading">Item 001</h3>
-                        <ul class="footer-list">
-                            <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
-                            <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
-                        </ul>
-                    </div>
-                </div>
+                    
            </div>
         </div>
     </div>
  
 </body>
-<script src="BTL.js">
-
+<script src="BTL.js"></script>
+<script>
+    const logout = document.querySelector(".logout-a");
+logout.addEventListener("click", (e) => {
+        alert("Đăng xuất thành công");
+        window.location.href = "BTL.html";
+});
 </script>
 </html>
+
+
+
