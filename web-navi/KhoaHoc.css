@@ -1,7 +1,11 @@
-.ABC{
-    margin: 0 auto;
-    box-sizing: inherit;
+
+
+
+#header{
+    justify-content: space-between;
 }
+
+
 #content{
     width: 80%;
     height: 100%;

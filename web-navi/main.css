@@ -5,13 +5,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 #header {
-    position: sticky;
+    position: fixed;
     height: 80px;
     background-color: #ece9e9;
     font-size: 1.2rem;
     z-index: 1;
     display: flex;
-    flex: 1 1;
     top: 0;
     left: 0;
     right: 0;
@@ -23,11 +22,12 @@
     flex-wrap: wrap;
 }
 .margin-sec{
-    margin-left: -12px;
+    margin-left: 12px;
     margin-right: -12px;
 }
-.active{
-    border-bottom: 5px solid #53cdf9;
+.wrap{
+    display: flex;
+    margin-left: -40px;
 }
 #nav{
     display: flex;
@@ -35,11 +35,11 @@
 
 
 #header .logo img{
-    height: 4rem;
+    height: 6rem;
 }
 #header .logo{
   display: flex;
-    margin-top: 0;
+    margin-top: -11px;
 }
 
 #nav li{
@@ -59,11 +59,8 @@
     border-bottom: blue solid 3px;
     font-weight: 700;
 }
-#header #bignav{
-    margin-left: 450px;
-    display: block;
-}
-#header #bignav{
+#bignav{
+    padding-left: 50px;
     display: block;
 }
 #header #nav  li :hover{
@@ -71,21 +68,54 @@
 }
 #header .search{
     display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
-    padding: 0;
+    align-items: flex-start;
+    padding: 0;  
+    width: 450px;
+}
+#header .search1{
+    display: flex;
+    padding: 0;    
+    width: 370px;
+    height: 500px;
+    background: #f0efef;
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+    overflow-y: scroll;
+}
+#search-box{
+    background-color: #ffffff;
+    margin-left: 2rem;
+    border-radius: 20px;
+    width: 300px;
+    border: 0.5px solid rgba(0, 0, 0, 0.5 );
+    margin-top: 23px;
+}
+#search-box .search-input{
+    width: 230px;
+    outline: none;
+    border: none ;
+    background: none;
+    padding: 7px 15px;
+    font-size: 16px;
 }
 
+#search-box .search-btn{
+    background-color: #fff;
+    border: none;
+    padding: 9.2px 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
 #nav-action{
     align-items: center;
     display: flex;
     justify-content: flex-end;
-    flex: 1 1;
+    width: 20%;
 }
 #nav-action .login-a{
-    width: 115px;
-    height: 35px;
     font-size: 14px;
     border-radius: 999px;
     background-color: rgb(255, 104, 22);
@@ -93,12 +123,20 @@
     cursor: pointer;
     font-weight: 600;
     padding: 9px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 #nav-action a{
     text-decoration: none;
 }
-.ABC{
+main{
+    width: 95%;
     margin: 0 auto;
+}
+.ABC{
+    width: 95%;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 0px;
     box-sizing: inherit;
 }
 #content{

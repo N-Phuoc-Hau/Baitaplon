@@ -1,6 +1,8 @@
 /* PC */
 @media (min-width: 1024px ){
-    
+    #header{
+        justify-content: space-between;
+    }
 }
 
 
@@ -12,7 +14,10 @@
     .small-forums{
         margin: 8px 8px
     }
-    #search-box{
+    #header .search{
+        width: 230px;
+    }
+    #header #search-box{
         width: 200px;
     }
     #search-box .search-input{
@@ -59,7 +64,7 @@
     }
     #nav-action{
         right: 7px;
-        top: 26px;
+        top: 24.5px;
         position: absolute;
     }
     #nav-action .login-a{

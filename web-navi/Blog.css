@@ -1,7 +1,11 @@
-
-#content .forums{
-    width: 77%;
+#header #bignav{
+    margin-left: 0px;
+    padding-left: 0px;
 }
+#content .forums{
+    width: 72%;
+}
+
 #content .forums .sml{
     padding: 0 64px 44px 0;
 }
