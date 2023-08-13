@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "title": "Trang chủ",
+    "href": "../../BTL.html",
+    "icon": "fa-solid fa-house"
+},
+{
+    "id": 2,
+    "title": "Học",
+    "href": "../../web-navi/KhoaHoc.html",
+    "icon": "fa-solid fa-chalkboard"
+},
+{
+    "id": 3,
+    "title": "Lộ trình",
+    "href": "#",
+    "icon": "fa-solid fa-route"
+},
+{
+    "id": 4,
+    "title": "Blog",
+    "href": "../../web-navi/Blog.html",
+    "icon": "fa-solid fa-newspaper"
+}
+]

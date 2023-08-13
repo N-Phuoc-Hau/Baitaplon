@@ -84,25 +84,25 @@ setInterval(function(){
 
 
 //JSGoToTop
-var gototop = document.getElementById("gTTop");
-window.onscroll = function(){
-    console.info(document.body.scrollTop);
-    var gototop = document.getElementById("gTTop");
-    if(document.documentElement.scrollTop > 300){
-        gototop.style.display = "block";
-    }
-    else{
-        gototop.style.display = "none";
-    }
-}
-gototop.addEventListener('click', e=>{
-    var timer = setInterval(function(){
-        document.documentElement.scrollTop-=20;
+// var gototop = document.getElementById("gTTop");
+// window.onscroll = function(){
+//     console.info(document.body.scrollTop);
+//     var gototop = document.getElementById("gTTop");
+//     if(document.documentElement.scrollTop > 300){
+//         gototop.style.display = "block";
+//     }
+//     else{
+//         gototop.style.display = "none";
+//     }
+// }
+// gototop.addEventListener('click', e=>{
+//     var timer = setInterval(function(){
+//         document.documentElement.scrollTop-=20;
 
-        if (document.documentElement.scrollTop <= 0)
-        clearInterval(timer);
-    }, 5)
-});
+//         if (document.documentElement.scrollTop <= 0)
+//         clearInterval(timer);
+//     }, 5)
+// });
 
 
 

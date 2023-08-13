@@ -1,0 +1,183 @@
+/* PC */
+@media (min-width: 1024px ){
+    
+}
+
+
+/* tablet */
+@media (min-width: 740px ) and (max-width: 1024px) {
+    #content{
+        width: 100%;
+    }
+    .small-forums{
+        margin: 8px 8px
+    }
+    #search-box{
+        width: 200px;
+    }
+    #search-box .search-input{
+        width: 150px;
+    }
+    #bignav{
+        padding-left: 10px;
+    }
+    #nav li a {
+        padding: 0 2rem;
+    }
+    #gTTop a{
+        font-size: 16px;
+        padding: 14px 18px;
+    }
+
+}
+/* MB */
+@media (max-width: 740px ){
+    #header{
+        display: block;
+    }
+    #search-box{
+        width: 180px;
+        margin-left: -8px;
+        height: 30px;
+        position: relative;
+    }
+    #header .logo img {
+        height: 90px;
+    }
+    #search-box .search-input{
+        width: 100px;
+    }
+    #search-box .search-btn{
+        position: absolute;
+        top: 8px;
+        margin-left: 50px;
+        padding: 0;
+    }
+    #bignav{
+        background-color: #ece9e9;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    #nav-action{
+        right: 7px;
+        top: 26px;
+        position: absolute;
+    }
+    #nav-action .login-a{
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    #header .search1{
+        width: 210px;
+        height: 300px;
+        z-index: 999;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    #search-box{
+        margin-left: 15px;
+    }
+    .course img{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .course .detail{
+        line-height: 20px;
+    }
+    .course .detail h2{
+        font-size: 16px;
+        color: #1d1d1d;
+    }
+    .course .detail h3{
+        font-size: 12px;
+        color: #1d1d1d;
+    }
+    
+    #bignav{
+        position: fixed;
+        top: 75px;
+        left: 0;
+        right: 0;
+        padding-left: 5px;
+    }
+    #nav{
+        justify-content: space-around;
+    }
+    div.content-top img {
+        height: 100px;
+        margin-top: 160px;
+    }
+   
+    div.menu ul {
+        font-size: 13px;
+    }
+    #nav li a {
+        padding: 0 1rem;
+    }
+
+    .content-title span {
+        font-size: 13px;
+    }
+    .content-title h2 {
+        color: white;
+        font-size: 20px;
+    }
+    .row{
+        display: block;
+    }
+    .container-1 {
+        height: 1400px;
+    }
+    .single-tutor {
+        padding: 25px 20px;
+    }
+    .single-tutor img {
+        height: 55px;
+        width: 55px;
+    }
+    .single-tutor h3 {
+        font-size: 18px;
+        line-height: 1;
+    }
+    .single-tutor p {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }             
+
+    #gTTop a{
+        font-size: 16px;
+        padding: 14px 18px;
+    }
+
+    .grid-col-4-0{
+        width: 100%;
+    }
+    .grid-row{
+       display: block;
+    }
+    #footer .heading {
+        font-size: 1.2rem;
+    }
+    #footer .footer-list-item {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    #footer .footer-list {
+        padding-right: 10px;
+    }
+    .grid-row{
+        display: block;
+     }
+     #footer .heading {
+         font-size: 1.2rem;
+     }
+     #footer .footer-list-item {
+         font-size: 1rem;
+         line-height: 1.5rem;
+     }
+     #footer .footer-list {
+         padding-right: 10px;
+     }
+}

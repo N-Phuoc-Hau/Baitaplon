@@ -65,6 +65,7 @@ body{
 }
 
 /* Phần search */
+
 #header .search{
     display: flex;
     cursor: pointer;
@@ -174,6 +175,7 @@ body{
     font-weight: 600;
     padding: 9px 20px;
 }
+
 /* Phần slider */
 #slider .prev{
     left: 10px;
@@ -281,7 +283,7 @@ body{
 
 
 
-
+ */
 
 
 /* Phần nội dung */
@@ -438,6 +440,9 @@ body{
         transform: translateX(0);
     }
 }
+
+
+
 /*Phan footer*/
 .grid{
     width: 1200px;
@@ -499,4 +504,4 @@ body{
     font-size: 1.4rem;
     text-transform: uppercase;
     color: #fff;
-}
+ }  
