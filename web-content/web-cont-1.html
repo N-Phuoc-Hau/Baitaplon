@@ -4,29 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="web-cont-1.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" href="../logo.png" class="icon" />
     <title>Khóa học pro HTML, CSS</title>
 </head>
 <script src="./json.js"></script>
 <body>
-    <div id="header">
-        <div class="search">
-            <div class="logo"><img src="../logo-black.png" alt="logo"></div>
-            <form action="" id="search-box">
-                <input type="text" class="search-input" placeholder="Tìm kiếm khóa học">
-                <button class="search-btn"><i class="ti-search"></i></button>
-            </form>   
+    <script src="./data/categories.js"></script>
+    <div id="main">
+        <div id="header">
+            <div class="wrap">
+                <div class="logo"><img src="../logo-black.png" alt="logo"></div>
+                <div class="search" id="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        <div class="course">
+                            <a href="../web-content/web-cont-1.html"><img src="../images/contnor1-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-content/web-cont-1.html"><h2>HTML, CSS từ zero đến hero</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contnor2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contnor3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contnor4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>Kiến thức nhập môn</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro1-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>HTML, CSS pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ Pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"></a><h2>C# pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+                
+            </div>
+           <div id="bignav">
+                <ul id="nav">
+                </ul>
+           </div> 
+            <div id="nav-action">
+                <input type="submit" class="login-a" value="Đăng xuất">
+            </div>
         </div>
-       <div id="bignav">
-            <ul id="nav">
-            </ul>
-       </div>
-        
-        <div id="nav-action">
-            <a href="link-log-in/log-in.html " class="login-a">Đăng nhập</a>
-        </div>
-    </div>
+        <div id="wrapper">
     <main>
     <section>
         <div class="content-top">
@@ -64,7 +131,7 @@
                     </div>
                 </div>
                 <div class="sign-up">
-                    <div class="wrap">
+                    <div class="wrap-1">
                         <ul>
                              <li>Ngày khai giảng: <span class="bold">25/7/2023</span></li>
                              <li>Lịch học: <span>Thứ 2, thứ 4 hàng tuần</span></li>
@@ -131,7 +198,7 @@
                 </div>
             </div>
             <div class="area">
-                <div class="container">
+                <div class="container-1">
                     <div class="section-title">
                         <h2>Đối tượng tham gia </h2>
                         <img class="section-img" src="../images/section-title-shape.png" alt="Image">
@@ -220,6 +287,7 @@
         </div>
      </div>
  </div>
+</div>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
     </script>
     <script src="web-cont-1.js"></script>

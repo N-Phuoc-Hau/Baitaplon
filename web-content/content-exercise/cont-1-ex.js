@@ -1,4 +1,5 @@
 
+
 //Mũi tên
 $(document).ready(function(){
     //Tìm tất cả li có menu con và thêm class has-child cho nó
@@ -6,8 +7,6 @@ $(document).ready(function(){
 });
 
 
-
-//ẩn hiện tìm kiếm
 $(document).ready(function(){
     if( $('#search-item').focus (function(){
             $('.search').removeClass('search').addClass('search1')
@@ -24,6 +23,8 @@ $(document).ready(function(){
     ));
 });
     
+
+
 //search
 const search = () => {
     const searchbox = document.getElementById("search-item").value.toUpperCase();
@@ -49,6 +50,10 @@ const search = () => {
         }
     }
 }
+
+
+
+
 //ẩn hiện danh sách
 $(document).ready(function(){
     $('#button-1').click(function(){
@@ -110,30 +115,3 @@ $(document).ready(function(){
     });
 });
 
-//Theo dõi quá trình học
-
-let progress = 10;
-const progressText = document.getElementById('progressText');
-
-if (localStorage.getItem('progress')) {
-    progress = parseInt(localStorage.getItem('progress'));
-    updateProgressBar();
-  }
-  
-  function updateProgressBar() {
-    progressText.textContent = `${progress.toFixed(2)}%`; // Để hiển thị đến 2 chữ số thập phân
-  }
-  
-  function updateProgress() {
-    if (progress < 99) {
-      progress += 10; // Tăng phần trăm lên 10% cho mỗi bài học hoàn thành
-      updateProgressBar();
-      localStorage.setItem('progress', progress.toString()); // Lưu giá trị phần trăm vào LocalStorage
-    }
-  }
-  
-  function resetProgress() {
-    progress = 0; // Đặt giá trị phần trăm về 0
-    updateProgressBar();
-    localStorage.removeItem('progress'); // Xóa dữ liệu phần trăm khỏi LocalStorage
-}

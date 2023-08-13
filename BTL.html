@@ -6,19 +6,70 @@
     <link rel="stylesheet" href="./BTL.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <link rel="icon" href="logo.png" class="icon"/>
     <title>Golden Farm - Trang chủ</title>
 </head>
 <body>
+   
     <script src="./data/categories.js"></script>
     <div id="main">
         <div id="header">
-            <div class="search">
+            <div class="wrap">
                 <div class="logo"><img src="logo-black.png" alt="logo"></div>
-                <form action="" id="search-box">
-                    <input type="text" class="search-input" placeholder="Tìm kiếm">
-                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                </form>   
+                <div class="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        <div class="course">
+                            <img src="./images/hoc-sinh.png" alt="">
+                            <div class="detail">
+                                <h2>HTML</h2>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/hoc-sinh.png" alt="">
+                            <div class="detail">
+                                <h2>CSS</h2>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/hoc-sinh.png" alt="">
+                            <div class="detail">
+                                <h2>JAVA</h2>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/hoc-sinh.png" alt="">
+                            <div class="detail">
+                                <h2>Hậu</h2>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/hoc-sinh.png" alt="">
+                            <div class="detail">
+                                <h2>Nhu</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/hoc-sinh.png" alt="">
+                            <div class="detail">
+                                <h2>Quan</h2>
+                                <h3>Không miễn phí</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+                
             </div>
            <div id="bignav">
                 <ul id="nav">
@@ -26,9 +77,10 @@
            </div>
             
             <div id="nav-action">
-                <a href="link-log-in/log-in.html " class="login-a">Đăng nhập</a>
+                <input type="submit" class="login-a" value="Đăng nhập">
             </div>
         </div>
+        <div id="wrapper">
         <div id="slider" >
             <div class="slides">
                 <!-- input -->
@@ -120,10 +172,9 @@
            </div>
         </div>
     </div>
- 
+ </div>
 </body>
 <script src="BTL.js">
-
 </script>
 </html>
 

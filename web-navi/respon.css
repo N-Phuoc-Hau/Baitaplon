@@ -23,11 +23,74 @@
 }
 /* MB */
 @media (max-width: 740px ){
-    #header #bignav{
-        margin-left: 5%;
+    #header{
+        display: block;
+    }
+    .search{
+        margin-left: -45px;
+    }
+    #search-box{
+        width: 180px;
+        margin-left: -8px;
+        height: 30px;
+        position: relative;
+    }
+    #header .logo img {
+        height: 90px;
+    }
+    #search-box .search-input{
+        width: 110px;
+    }
+    #search-box .search-btn{
+        position: absolute;
+        top: 8px;
+        margin-left: 40px;
+        padding: 0;
+    }
+    #nav li a {
+        padding: 0 1rem;
+    }
+    #bignav{
+        background-color: #ece9e9;
+        border-top: 1px solid rgba(0, 0, 0, 0.2); 
+        position: fixed;
+        top: 75px;
+        left: 0;
+        right: 0;
+        padding-left: 5px;
+    }
+    #nav-action{
+        right: 7px;
+        top: 26px;
+        position: absolute;
+    }
+    #nav-action .login-a{
+        padding: 8px;
+        font-size: 10px;
+    }
+    #nav{
+        justify-content: space-around;
+    }
+    #content .content-top>h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .content-top p{
+        line-height: 25px;
+        margin: 6px 0;
     }
     #nav li a{
         padding: 0px 10px;
+    }
+    .cont{
+        overflow-x: scroll;
+    }
+    .forums{
+       flex-wrap: nowrap;
+       width: 1200px;
+    }
+    .nor .forums{
+        width: 1500px;
     }
     .wrap{
         flex-wrap: wrap;
@@ -37,9 +100,13 @@
     .right p{
         display: none;
     }
+
     #footer{
         width: 98%;
         padding: 1%;
+    }
+    .grid-row{
+        display: block;
     }
     #content{
         width: 95%;

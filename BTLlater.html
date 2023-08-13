@@ -14,58 +14,74 @@
     <script src="./data/categories.js"></script>
     <div id="main">
         <div id="header">
-            <div class="logo"><img src="logo-black.png" alt="logo"></div>
-            <div class="search">
-                <div class="container">
-                    <form id="search-box">
-                        <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
-                        <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-                    </form> 
-                    <div class="course-list" id="course-list">
-                    <div class="course">
-                        <img src="./images/hoc-sinh.png" alt="">
-                        <div class="detail">
-                            <h2>HTML</h2>
-                            <h3>Miễn phí</h3>
+            <div class="wrap">
+                <div class="logo"><img src="logo-black.png" alt="logo"></div>
+                <div class="search" id="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        <div class="course">
+                            <a href="./web-content/web-cont-1.html"><img src="./images/contnor1-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="./web-content/web-cont-1.html"><h2>HTML, CSS từ zero đến hero</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contnor2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contnor3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contnor4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>Kiến thức nhập môn</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro1-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>HTML, CSS pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ Pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"></a><h2>C# pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
                         </div>
                     </div>
-                    <div class="course">
-                        <img src="./images/hoc-sinh.png" alt="">
-                        <div class="detail">
-                            <h2>CSS</h2>
-                            <h3>Miễn phí</h3>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <img src="./images/hoc-sinh.png" alt="">
-                        <div class="detail">
-                            <h2>JAVA</h2>
-                            <h3>Miễn phí</h3>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <img src="./images/hoc-sinh.png" alt="">
-                        <div class="detail">
-                            <h2>Hau</h2>
-                            <h3>Miễn phí</h3>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <img src="./images/hoc-sinh.png" alt="">
-                        <div class="detail">
-                            <h2>Nhu</h2>
-                            <h3>Miễn phí</h3>
-                        </div>
-                    </div>
-                    <div class="course">
-                        <img src="./images/hoc-sinh.png" alt="">
-                        <div class="detail">
-                            <h2>Quan</h2>
-                            <h3>Miễn phí</h3>
-                        </div>
-                    </div>
-                </div>
                 </div>  
+            </div>
                 
             </div>
            <div id="bignav">
@@ -74,9 +90,10 @@
            </div>
             
             <div id="nav-action">
-                <input type="submit" class="logout-a" value="Đăng xuất">
+                <input type="submit" class="login-a" value="Đăng xuất">
             </div>
         </div>
+    <div id="wrapper">
         <div id="slider" >
             <div class="slides">
                 <div class="control prev ti-angle-left"></div>
@@ -170,7 +187,7 @@
            </div>
         </div>
     </div>
- 
+</div>
 </body>
 <script src="BTL.js"></script>
 <script>
