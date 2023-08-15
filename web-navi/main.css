@@ -133,9 +133,8 @@ main{
     margin: 0 auto;
 }
 .ABC{
-    width: 95%;
+    width: 100%;
     margin-top: 100px;
-    margin-left: 20px;
     margin-right: 0px;
     box-sizing: inherit;
 }
@@ -149,11 +148,11 @@ main{
 }
 #content .content-top>h1{
     margin: 20px 0px;
-    font-size: 2.5rem;
+    font-size: 60px;
 
 }
-#content .content-top>p{
-    font-size: 15px;
+#content .content-top>div{
+    font-size: 30px;
 }
 #content .content-bottom{
     width: 100%;

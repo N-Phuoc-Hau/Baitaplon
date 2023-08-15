@@ -1,5 +1,9 @@
+#header .search{
+    width: 35%;
+}
+
 #header #bignav{
-    margin-left: 0px;
+    margin-left: 5%;
     padding-left: 0px;
 }
 #content .forums{

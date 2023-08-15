@@ -296,6 +296,16 @@ body{
     margin: 0 auto;
     padding: 0 22px 55px;
 }
+.bigcont{
+    
+    box-sizing: inherit;
+    width: 90%;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 0 22px 55px;
+}
+
 #top-content .headd{
     background-color: #fff;
     align-items: baseline;

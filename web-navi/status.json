@@ -1,5 +1,18 @@
-[
-    {
+[{
+    "src": "../images/status7.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/photo/?fbid=673064681521865&set=a.454397630055239",
+    "name": "WORKSHOP WEB3 & BLOCKCHAIN - ETHVN - REVEAL TOPIC",
+    "cont": "Các diễn giả là các chuyên gia đến từ ETHVN, SUCI Blockchain HUB và KyberNetwork 🥰🥰🥰 - Nếu bạn chưa kịp đăng ký tham gia cũng đừng lo! Nhằm tạo thêm điều kiện cho các bạn, Khoa CNTT quyết định mở thêm 50 vé tham dự nữa cho các bạn nhé! Nhanh tay đăng ký thôi nào!!!"
+},
+{
+    "src": "../images/status8.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/photo/?fbid=673064681521865&set=a.454397630055239",
+    "name": "Sự khác biệt giữa var, let và const trong JavaScript",
+    "cont": "Thảo luận về var-let-const"
+},
+{
     "src": "../images/status1.png",
     "alt": "ảnh status",
     "href": "https://www.facebook.com/tinhocmo/posts/pfbid02iu7ExxSaXE5i8xNcGHCtGhPWgCh3Bb4fV64FroLUoHzbBiictPZYNYfjWFrmyZal",
@@ -21,9 +34,38 @@
     "cont": "Sự kiện có sự tham gia của đại diện những công ty lớn về trí tuệ nhân tạo như OpenAI, Google, Meta, Anthropic, Inflection, Amazon, Microsoft. Họ sẽ cùng phát triển một công cụ đánh dấu watermark tự động cho tất cả định dạng từ văn bản, âm thanh đến ảnh, video để người dùng phân biệt được nội dung do con người hay AI tạo ra dễ dàng hơn. Hiện các bên chưa bàn về cách watermark sẽ được hiển thị thế nào."
 },
 {
+    "src": "../images/status6.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/photo/?fbid=561664349328566&set=a.454397630055239",
+    "name": "Trở thành Lập trình viên vươn tầm Quốc tế cùng Signing Rewards cực chất tại DEK Technologies Việt Nam, tại sao không? Nào mình cùng “Apply DEK ngay – Nhận quà TECH hay” nhé",
+    "cont": "Với những điều kiện sau:  Ứng viên ứng tuyển thành công các vị trí toàn thời gian bao gồm Remote.  Các ứng viên tham gia phỏng vấn từ sau ngày 31/1/2023 và nhận việc trước ngày 1/4/2023. ♦️ Ứng tuyển ngay bằng cách gửi CV Tiếng Anh và Bảng điểm (đối với Freshers) về email: dek-vn-ta@dektech.com.au để trở thành thành viên của DEK Technologies Việt Nam nhé!"
+},
+{
+    "src": "../images/status5.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/photo/?fbid=583845863777081&set=a.454397630055239",
+    "name": "Tháng 4 sắp tới, DEK Technologies Vietnam tổ chức sự kiện mang tên Webinar: How to Nurture and Develop Growth Mindset.",
+    "cont": "Growth Mindset (Tư duy phát triển) có thể được xem là một trong những yếu tố quan trọng nhất để tạo nên sự thành công của một lập trình viên khi làm việc trong một lĩnh vực luôn đổi mới, nhiều thử thách, đầy những nhân tài và gần đây nhất còn xuất hiện thêm nỗi lo bị thay thế bởi trí tuệ nhân tạo."
+},
+{
     "src": "../images/status4.png",
     "alt": "ảnh status",
     "href": "https://www.facebook.com/photo/?fbid=10159938307473821&set=gm.9564907946912824&idorvanity=3059387787464905",
     "name": "Chuyển đổi website từ Python sang Rust.",
     "cont": "Chuyển đổi website từ Python sang Rust. Sau khi viết thêm code Rust sao cho phiên bản Rust có đủ tính năng như phiên bản Python, thì nhìn lại thấy rằng lượng code Rust đã hơn gấp đôi lượng code Python. Lý do là Rust còn thiếu thư viện để tích hợp nhiều thư viện khác với nhau quá, khiến mình phải tự viết nhiều."
-}]
+},
+{
+    "src": "../images/status-2.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/photo/?fbid=529938835834451&set=a.454397630055239",
+    "name": "[DEK Technologies Việt Nam] - Giới thiệu Chương trình thực tập 2023",
+    "cont": "Chương trình thực tập: Trong năm 2023, Công ty dự kiến sẽ tổ chức 4 kỳ thực tập cho các bạn Sinh viên năm 3, năm 4 các ngành Công nghệ Thông tin, Điện tử - Viễn thông. Kỳ thực tập gần nhất sẽ bắt đầu vào Tháng 3/2023 với 4 dự án sẽ được mở ra."
+},
+{
+    "src": "../images/status-1.png",
+    "alt": "ảnh status",
+    "href": "https://www.facebook.com/tinhocmo/photos/a.203549646670281/1804904339868129/5",
+    "name": "// THAM QUAN CÔNG TY HITACHI VANTARA VIETNAM //",
+    "cont": "- Thời gian đăng ký: từ nay đến hết ngày 23/09/2022 - Thời gian tham quan: 29/09/2022 (Thời gian cụ thể sáng hoặc chiều VP Khoa sẽ thông báo sau qua email SV đăng ký)"
+}
+]
