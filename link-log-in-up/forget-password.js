@@ -23,7 +23,7 @@ $(document).ready(function(){
 const inputUsernameRegister = document.querySelector("#username");
 const inputPasswordRegister = document.querySelector("#password");
 const btnRegister = document.querySelector(".submit");
-
+const btn_close = document.getElementById('btn-close');
 
 btnRegister.addEventListener("click", (e) => {
   e.preventDefault();
@@ -31,7 +31,11 @@ btnRegister.addEventListener("click", (e) => {
     inputUsernameRegister.value === "" ||
     inputPasswordRegister.value === ""
   ) {
-    alert("vui lòng không để trống");
+    document.getElementById('content').innerHTML="Vui lòng không được để trống!"
+    document.getElementById('container-modal').style.display= 'block';
+    if (btn_close.addEventListener('click', () => {
+      document.getElementById('container-modal').style.display= 'none';
+    }));
   } else {
     // array user
     const user = {
@@ -40,7 +44,11 @@ btnRegister.addEventListener("click", (e) => {
     };
     let json = JSON.stringify(user);
     localStorage.setItem(inputUsernameRegister.value, json);
-    alert("Chỉnh sửa mật khẩu thành công");
-    window.location.href = "log-in.html";
+    document.getElementById('content').innerHTML="Bạn đã thay đổi mật khẩu thành công!"
+    document.getElementById('container-modal').style.display= 'block';
+    if (btn_close.addEventListener('click', () => {
+      document.getElementById('container-modal').style.display= 'none';
+      window.location.href = "./log-in.html";
+    }));   
   }
 });
