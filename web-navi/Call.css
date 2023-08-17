@@ -1,0 +1,26 @@
+#content .content-top img{
+    width: 100%;
+    margin: 0 auto;
+}
+#top-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#top-content a img{
+    height: 50px;
+    margin-bottom: 5px;
+}
+#top-content a{
+    text-decoration: none;
+    font-size: 16px;
+}
+#top-content a p{
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+#bot-content{
+    width: 90%;
+    margin: 0 auto;
+}
