@@ -95,3 +95,50 @@ body{
 .fa-solid{
     color:white;
 }
+#btn-close i{
+    color: black;
+}
+
+/* modal box */
+.container-modal
+{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    z-index: 999;
+}
+.modal{
+    background: white;
+    max-width: 500px;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.25s ease;
+}
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    border-bottom: 1px solid #dedede;
+}
+.modal-header h3{
+    margin: 0;
+}
+#btn-close{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 15px;
+    padding: 10px 15px;
+    display: block;
+    cursor: pointer;
+}
+.modal-body{
+    padding: 20px 30px;
+}

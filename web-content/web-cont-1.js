@@ -23,10 +23,7 @@ gototop.addEventListener('click', e=>{
     }, 5)
 })
 
-const Submit = document.querySelector(".submit");
-Submit.addEventListener("click", (e) => {
-        alert("Đăng kí thành công")
-});
+
 // window.onscroll = function(){
 //     console.info(document.body.scrollTop)
 //     var headmenu = document.getElementById('headmenu');
@@ -88,3 +85,13 @@ const search = () => {
         }
     }
 }
+
+//hiện modal box
+$(document).ready(function(){
+    $('.submit').click(function(){
+        $('.container-modal').css('display', 'block')
+    })
+    $('#btn-close').click(function(){
+        $('.container-modal').css('display', 'none')
+    })
+})
