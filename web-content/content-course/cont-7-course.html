@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cont-1-course.css">
+    <link rel="stylesheet" href="./respon.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="../../images/logo-black.png">
+    <title>Nội dung - C++ miễn phí</title>
+</head>
+<script src="../json.js"></script>
+<body>
+    <script src="./data/categories.js"></script>
+    <div id="main">
+        <div id="header">
+            <div class="wrap">
+                <div class="logo"><img src="../../images/logo-black.png" alt="logo"></div>
+                <div class="search" id="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        <div class="course">
+                            <a href="../web-content/web-cont-1.html"><img src="../../images/contnor1-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../../web-content/web-cont-1.html"><h2>HTML, CSS từ zero đến hero</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../../images/contnor2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../../images/contnor3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../../images/contnor4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>Kiến thức nhập môn</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../../images/contpro1-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>HTML, CSS pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../../images/contpro2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../../images/contpro3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ Pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../../images/contpro4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"></a><h2>C# pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+                
+            </div>
+           <div id="bignav">
+                <ul id="nav">
+                </ul>
+           </div>
+            
+            <div id="nav-action">
+                <input type="submit" class="login-a" value="Đăng xuất">
+            </div>
+        </div>
+        <main id="wrapper">
+        <section>
+            <div class="content-top">
+                <div>
+                <img src="../../images/poster.png" alt="">
+                </div>
+                <div class="menu" id="headmenu">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#">Giới thiệu</a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Giáo viên</a></li>
+                                    <li>
+                                    <a href="#">Khóa học</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Bài học</a></li>
+                                        <li><a href="#">Đề cương</a></li>
+                                        <li><a href="#">Chuẩn đầu ra</a></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        <li><a href="#">Nội dung</a></li>
+                        <li><a href="#">Yêu cầu</a></li>
+                        <li><a href="#">Đăng kí</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="courses">
+            <div class="title-list">
+                <h1><strong>Nội dung khóa học</strong></h1>
+                <ul class="sub-list">
+                    <li>3 chương</li>
+                    <li>4 bài học</li>
+                    <li>Tổng thời lượng: 3 giờ 10 phút</li>
+                </ul>
+            </div>
+            <div class="wrapper"> 
+                <div class="list-contents">
+                    <div>
+                        <div class="list-content">
+                            <div class="unit">
+                                    <h4 class="unit-title">
+                                        <div  class="headline">
+                                            <span class="headline-left">
+                                                <span id="button-1"><i class="fa-solid fa-plus"></i></span>
+                                                <strong> 1. Giới thiệu C++</strong>
+                                            </span> 
+                                            <span class="headline-right">2 bài học</span>
+                                        </div> 
+                                    </h4>
+                                </div>
+                                <div class="unit-lesson">
+                                    <div class="lessons-1">
+                                        <div>
+                                            <div> 
+                                                <div class="lesson">
+                                                    <span class="headline-left">
+                                                        <a href="./content-video/cont-2-cour-video-1.html" class="lesson-name">1.Làm quen với ngôn ngữ lập trình</a>
+                                                    </span>
+                                                    <span class="headline-right">45:17</span>
+                                                </div>
+                                                <div class="lesson">
+                                                    <span class="headline-left">
+                                                        <a href="./content-video/cont-2-cour-video-1.html" class="lesson-name">2.Các Toán Tử Cơ Bản Trong Ngôn Ngữ Lập Trình C++</a>
+                                                    </span>
+                                                    <span class="headline-right">39:26</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        <div class="list-content">
+                            <div class="unit">
+                                <h4 class="unit-title">
+                                    <div  class="headline">
+                                        <span class="headline-left">
+                                            <span id="button-2"><i class="fa-solid fa-plus"></i></span>
+                                            <strong>2. Cấu trúc rẻ nhánh</strong>
+                                        </span> 
+                                        <span class="headline-right">1 bài học</span>
+                                    </div> 
+                                </h4>
+                            </div>
+                            <div class="unit-lesson">
+                                <div class="lessons-2">
+                                    <div>
+                                        <div> 
+                                            <div class="lesson">
+                                                <span class="headline-left">
+                                                    <a href="./content-video/cont-1-cour-video-5.html" class="lesson-name">3.IF ELSE và SWITCH CASE Trong C++</a>
+                                                </span>
+                                                <span class="headline-right"> 51:21</span>
+                                            </div>
+                                           
+                                        </div>
+
+                                    </div>
+                                </div>
+                                   
+                            </div>
+                                
+                        </div>
+                        <div class="list-content">
+                            <div class="unit">
+                                <h4 class="unit-title">
+                                    <div  class="headline">
+                                        
+                                        <span class="headline-left">
+                                            <span id="button-3"><i class="fa-solid fa-plus"></i></span>
+                                            <strong>3. Vòng lập C++</strong>
+                                        </span> 
+                                        <span class="headline-right">2 bài học</span>
+                                    </div> 
+                                </h4>
+                            </div>
+                            <div class="unit-lesson">
+                                <div class="lessons-3">
+                                    <div>
+                                        <div> 
+                                            <div class="lesson">
+                                                <span class="headline-left">
+                                                    <a href="./content-video/cont-1-cour-video-3.html" class="lesson-name">4.Vòng Lặp For, While Và Do-While</a>
+                                                </span>
+                                                <span class="headline-right">51:21</span>
+                                            </div>
+                                            
+                                        </div>
+
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="list-content">
+                            <div class="unit">
+                                <h4 class="unit-title">
+                                    <div  class="headline">
+                                        
+                                        <span class="headline-left">
+                                            <span id="button-4"><i class="fa-solid fa-plus"></i></span>
+                                            <strong>4. Danh sách liên kết đơn</strong>
+                                        </span> 
+                                        <span class="headline-right">2 bài học</span>
+                                    </div> 
+                                </h4>
+                            </div>
+                            <div class="unit-lesson">
+                                <div class="lessons-4">
+                                    <div>
+                                        <div> 
+                                            <div class="lesson">
+                                                <span class="headline-left">
+                                                    <a href="./content-video/cont-1-cour-video-3.html" class="lesson-name">5.Danh Sách Liên Kết Đơn Ngôn Ngữ Lập Trình C++</a>
+                                                </span>
+                                                <span class="headline-right"> 1:39:27</span>
+                                            </div>
+                                            
+                                        </div>
+
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div id="gTTop">
+            <a href="javascript:;"><i class="ti-angle-double-up"></i></a>
+        </div>
+        <div id="footer">
+            <div class="grid">
+                 <div class="grid-row">
+                     <div class="grid-col-4-0">
+                         <h3 class="heading">Liên hệ</h3>
+                         <ul class="footer-list">
+                             <li class="footer-list-item"><a href="tel:0389 283 943"><i class="fa-solid fa-phone"></i> Liên hệ: 0389283943</a></li>
+                             <li class="footer-list-item"><a href="mailto:goldenfarm.vn@gmail.com"><i class="fa-solid fa-envelope"></i> Email: goldenfarm.vn@gmail.com</a></li>
+                             <li class="footer-list-item">Địa chỉ: Số 26 Dương Đình Nghệ, Phường Yên Hòa, Quận Cầu Giấy, TP. Hà Nội</li>
+                         </ul>
+                     </div>
+                     <div class="grid-col-4-0">
+                         <h3 class="heading">Item 001</h3>
+                         <ul class="footer-list">
+                             <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
+                             <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                             <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                         </ul>
+                     </div>
+                     <div class="grid-col-4-0">
+                         <h3 class="heading">Golden Farm</h3>
+                         <ul class="footer-list">
+                             <li class="footer-list-item">Ngày thành lập: 04/03/2022</li>
+                             <li class="footer-list-item">Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng.</li>
+                         </ul>
+                     </div> 
+            </div>
+         </div>
+     </div>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
+        </script>
+</body>
+<script src="../content-lecturer/cont-1-lec.js"></script>
+</html>

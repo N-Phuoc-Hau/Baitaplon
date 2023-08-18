@@ -108,7 +108,10 @@
         flex-wrap: nowrap;
     }
     .nor .forums{
-        width: 1500px;
+        width: 1000px;
+    }
+    #json-status{
+        width: 1200px !important;
     }
     #content{
         width: 100%;
@@ -116,7 +119,9 @@
     .small-forums{
         margin: 8px 8px
     }
-
+    #top-content .headd{
+        margin-left: 15px;
+    }
     #bignav{
         position: fixed;
         top: 75px;

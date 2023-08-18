@@ -314,6 +314,7 @@ body{
     font-size: 24px;
     margin-bottom: 1rem;
     margin-top: 2rem;
+    margin-left: 30px;
 }
 
 
@@ -385,7 +386,7 @@ body{
     width: 100%;
 }
 .ele-for h3{
-    margin: 12px 0 0 5px;
+    margin: 12px 5px 0 5px;
 }
 .a-deco{
     color: #000;
