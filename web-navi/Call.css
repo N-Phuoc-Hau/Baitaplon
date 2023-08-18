@@ -24,3 +24,9 @@
     width: 90%;
     margin: 0 auto;
 }
+#bot-content p{
+    margin-top: 20px;
+}
+#bot-content h1, h2{
+    margin-top: 20px;
+}
