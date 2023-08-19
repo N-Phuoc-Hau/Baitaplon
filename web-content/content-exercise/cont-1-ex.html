@@ -14,8 +14,8 @@
     <div id="main">
         <div id="header">
             <div class="wrap">
-                <div class="logo"><img src="../../logo-black.png" alt="logo"></div>
-                <div class="search">
+                <div class="logo"><img src="../../images/logo-black.png" alt="logo"></div>
+                <div class="search" id="search">
                     <div class="container">
                         <form id="search-box">
                             <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
@@ -23,45 +23,67 @@
                         </form> 
                         <div class="course-list" id="course-list">
                         <div class="course">
-                            <img src="./images/hoc-sinh.png" alt="">
+                            <a href="../web-cont-5.html"><img src="../../images/contnor1-menu.png" alt=""></a>
                             <div class="detail">
-                                <h2>HTML</h2>
+                                <a href="../web-cont-5.html"><h2>HTML, CSS từ zero đến hero</h2></a>
                                 <h3>Miễn phí</h3>
                             </div>
                         </div>
                         <div class="course">
-                            <img src="./images/hoc-sinh.png" alt="">
+                            <a href="../web-cont-6.html"><img src="../../images/contnor2-menu.png" alt=""></a>
                             <div class="detail">
-                                <h2>CSS</h2>
+                                <a href="../web-cont-6.html"><h2>JavaScript cơ bản</h2></a>
                                 <h3>Miễn phí</h3>
                             </div>
                         </div>
                         <div class="course">
-                            <img src="./images/hoc-sinh.png" alt="">
+                            <a href="../web-cont-7.html"><img src="../../images/contnor3-menu.png" alt=""></a>
                             <div class="detail">
-                                <h2>JAVA</h2>
+                                <a href="../web-cont-7.html"><h2>C++ cơ bản</h2></a>
                                 <h3>Miễn phí</h3>
                             </div>
                         </div>
                         <div class="course">
-                            <img src="./images/hoc-sinh.png" alt="">
+                            <a href="../web-cont-8.html"><img src="../../images/contnor4-menu.png" alt=""></a>
                             <div class="detail">
-                                <h2>Hậu</h2>
+                                <a href="../web-cont-8.html"><h2>Kiến thức nhập môn</h2></a>
                                 <h3>Miễn phí</h3>
                             </div>
                         </div>
                         <div class="course">
-                            <img src="./images/hoc-sinh.png" alt="">
+                            <a href="../web-cont-9.html"><img src="../../images/contnor5-menu.jpg" alt=""></a>
                             <div class="detail">
-                                <h2>Nhu</h2>
+                                <a href="../web-cont-9.html"><h2>Cấu trúc dữ liệu & thuật giải</h2></a>
                                 <h3>Pro</h3>
                             </div>
                         </div>
                         <div class="course">
-                            <img src="./images/hoc-sinh.png" alt="">
+                            <a href="../web-cont-1.html"><img src="../../images/contpro1-menu.png" alt=""></a>
                             <div class="detail">
-                                <h2>Quan</h2>
-                                <h3>Không miễn phí</h3>
+                                <a href="../web-cont-1.html"><h2>HMTL & CSS pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-2.html"><img src="../../images/contpro2-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="ourse">
+                                    <a href="../web-cont-2.html"><h2>JavaScript Pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-3.html"><img src="../../images/contpro3-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-3.html"><h2>C++ Pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-4.html"><img src="../../images/contpro4-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-4.html"></a><h2>C# pro</h2></a>
+                                <h3>Pro</h3>
                             </div>
                         </div>
                     </div>
@@ -75,7 +97,7 @@
            </div>
             
             <div id="nav-action">
-                <input type="submit" class="login-a" value="Đăng nhập">
+                <input type="submit" class="login-a" value="Đăng xuất">
             </div>
         </div>
         <main id="wrapper">
@@ -89,20 +111,19 @@
                         <li>
                             <a href="#">Giới thiệu</a>
                             <ul class="sub-menu">
-                                <li><a href="#">Giáo viên</a></li>
+                                <li><a href="../content-lecturer/cont-1-lec.html">Giáo viên</a></li>
                                     <li>
                                     <a href="#">Khóa học</a>
                                     <ul class="sub-menu">
-                                        <li><a href="#">Bài học</a></li>
-                                        <li><a href="#">Đề cương</a></li>
-                                        <li><a href="#">Chuẩn đầu ra</a></li>
+                                        <li><a href="../content-lesson/cont-1-les.html">Bài học</a></li>
+                                        <li><a href="../content-standard/cont-1-standard.html">Chuẩn đầu ra</a></li>
                                     </ul>
                                     </li>
                                 </ul>
                             </li>
-                        <li><a href="#">Nội dung</a></li>
-                        <li><a href="#">Yêu cầu</a></li>
-                        <li><a href="#">Đăng kí</a></li>
+                        <li><a href="../content-course/cont-1-course.html">Nội dung</a></li>
+                        <li><a href="../content-request/cont-1-request.html">Yêu cầu</a></li>
+                        <li><a href="../content-exercise/cont-1-ex.html">Bài tập</a></li>
                     </ul>
             </div>
         </div>

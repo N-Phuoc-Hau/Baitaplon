@@ -516,3 +516,14 @@ body{
     text-transform: uppercase;
     color: #fff;
  }  
+ ::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(108, 105, 105);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #dedede;
+}

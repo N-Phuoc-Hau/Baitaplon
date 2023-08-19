@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./cont-1-lec.css">
+    <link rel="stylesheet" href="./respon.css">
+    <link rel="shortcut icon" href="../../images/logo-black.png">
+    <title>Giáo viên</title>
+</head>
+<script src="../json.js"></script>
+<body>
+    <div id="main">
+        <div id="header">
+            <div class="wrap">
+                <div class="logo"><img src="../../images/logo-black.png" alt="logo"></div>
+                <div class="search" id="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        <div class="course">
+                            <a href="../web-cont-5.html"><img src="../../images/contnor1-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-5.html"><h2>HTML, CSS từ zero đến hero</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-6.html"><img src="../../images/contnor2-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-6.html"><h2>JavaScript cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-7.html"><img src="../../images/contnor3-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-7.html"><h2>C++ cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-8.html"><img src="../../images/contnor4-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-8.html"><h2>Kiến thức nhập môn</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-9.html"><img src="../../images/contnor5-menu.jpg" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-9.html"><h2>Cấu trúc dữ liệu & thuật giải</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-1.html"><img src="../../images/contpro1-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-1.html"><h2>HMTL & CSS pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-2.html"><img src="../../images/contpro2-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="ourse">
+                                    <a href="../web-cont-2.html"><h2>JavaScript Pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-3.html"><img src="../../images/contpro3-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-3.html"><h2>C++ Pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <a href="../web-cont-4.html"><img src="../../images/contpro4-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-cont-4.html"></a><h2>C# pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+                
+            </div>
+           <div id="bignav">
+                <ul id="nav">
+                </ul>
+           </div>
+            
+            <div id="nav-action">
+                <input type="submit" class="login-a" value="Đăng xuất">
+            </div>
+        </div>
+        <main id="wrapper">
+    <section>
+        <div class="content-top">
+            <div>
+            <img src="../../images/poster.png" alt="">
+            </div>
+            <div class="menu" id="headmenu">
+                <ul class="main-menu">
+                    <li>
+                        <a href="#">Giới thiệu</a>
+                        <ul class="sub-menu">
+                            <li><a href="../content-lecturer/cont-3-lec.html">Giáo viên</a></li>
+                                <li>
+                                <a href="#">Khóa học</a>
+                                <ul class="sub-menu">
+                                    <li><a href="../content-lesson/cont-3-les.html">Bài học</a></li>
+                                    <li><a href="../content-standard/cont-3-standard.html">Chuẩn đầu ra</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    <li><a href="../content-course/cont-3-course.html">Nội dung</a></li>
+                    <li><a href="../content-request/cont-3-request.html">Yêu cầu</a></li>
+                    <li><a href="../content-exercise/cont-3-ex.html">Bài tập</a></li>
+                </ul>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="image">
+            <img src="../../images/Information Technology.png" alt="">
+        </div>
+        <div class="content">
+            <h1>Đội Ngũ Golden Farm</h1>
+            <p>Đội ngũ Golden Farm gồm các kỹ sư, sinh viên ngành Công nghệ thông tin yêu thích việc giảng dạy, chia sẻ kiến thức về lập trình tới cộng đồng IT. Thông qua các kiến thức chia sẻ miễn phí cũng như các khóa học cực kì chất lượng của Golden Farm, chúng tôi luôn mong muốn các bạn bè, học viên của mình sẽ trở thành những lập trình viên giỏi hơn trong tương lai.</p>
+            <h3>Thông tin giảng viên:</h3>
+            <ul>
+                <li>TS. Lê Công Quận</li>
+                <li>Học vị: Thạc sĩ</li>
+                <li>Email: lecongquan@gmail.vn</li>
+                <li>SĐT: 0749334332</li>
+                <li>Chuyên ngành: Khoa học máy tính</li>
+                <li>Môn giảng dạy: Cơ sở dữ liệu, Kỹ thuật lập trình</li>
+        
+            </ul>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="grid">
+             <div class="grid-row">
+                 <div class="grid-col-4-0">
+                     <h3 class="heading">Liên hệ</h3>
+                     <ul class="footer-list">
+                         <li class="footer-list-item"><a href="tel:0389 283 943"><i class="fa-solid fa-phone"></i> Liên hệ: 0389283943</a></li>
+                         <li class="footer-list-item"><a href="mailto:goldenfarm.vn@gmail.com"><i class="fa-solid fa-envelope"></i> Email: goldenfarm.vn@gmail.com</a></li>
+                         <li class="footer-list-item">Địa chỉ: Số 26 Dương Đình Nghệ, Phường Yên Hòa, Quận Cầu Giấy, TP. Hà Nội</li>
+                     </ul>
+                 </div>
+                 <div class="grid-col-4-0">
+                     <h3 class="heading">Item 001</h3>
+                     <ul class="footer-list">
+                         <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
+                         <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                         <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                     </ul>
+                 </div>
+                 <div class="grid-col-4-0">
+                     <h3 class="heading">Golden Farm</h3>
+                     <ul class="footer-list">
+                         <li class="footer-list-item">Ngày thành lập: 04/03/2022</li>
+                         <li class="footer-list-item">Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng.</li>
+                     </ul>
+                 </div>
+                 
+        </div>
+     </div>
+ </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
+    </script>
+    <script src="./cont-1-lec.js"></script>
+</body>
+</html>

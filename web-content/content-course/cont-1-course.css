@@ -335,6 +335,7 @@ div.title-list > h1{
 }
 .headline #button-1, #button-2, #button-3, #button-4{
     color: red;
+    cursor: pointer;
 }
 
 .headline-left {
@@ -449,4 +450,15 @@ div.title-list > h1{
 }
 .mb-30{
     margin-bottom: 30px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(108, 105, 105);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #dedede;
 }

@@ -367,10 +367,11 @@ div.title-list > h1{
 /* Phần icon cho cont-ex */
 .wrap-headline{
     display: flex;
+    justify-content: flex-start;
 }
 .icon-title{
-    width: 10%;
-    margin: 5px 20px;
+    width: 4%;
+    margin: 6px 10px;
 }
 .icon-title a{
     background-color: rgb(114, 203, 238);
@@ -471,4 +472,15 @@ div.title-list > h1{
 }
 .mb-30{
     margin-bottom: 30px;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(108, 105, 105);
+    border-radius: 7px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #dedede;
 }
