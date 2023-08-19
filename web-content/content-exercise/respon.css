@@ -137,7 +137,29 @@
         line-height: 40px;
     }
     div.menu ul {
-        font-size: 13px;
+        font-size: 12px;
+    }
+    div.menu li > a {
+        padding: 8px 20px;
+    }
+    .main-menu > li > a::before{
+        margin-left: -10px;
+    }
+    .main-menu > li:hover > a::before{
+        width: 80%;
+    }
+    .menu ul.sub-menu{
+        width: 100px;
+        padding: 5px 0;
+    }
+    .menu ul.sub-menu ul.sub-menu {
+        left: 100px;
+    }
+    .menu li > ul.sub-menu li:last-child > a {
+        margin-right: 5px;
+    }
+    .main-menu >li.has-child::after {
+        padding: 10px 0;
     }
     #nav li a {
         padding: 0 1rem;

@@ -4,19 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./cont-1-cour-video-1.css">
+    <link rel="stylesheet" href="./respon.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
 </head>
 <script src="./json.js"></script>
 <body>
-    <body>
+    <div id="main">
         <div id="header">
-            <div class="search">
+            <div class="wrap">
                 <div class="logo"><img src="../../logo-black.png" alt="logo"></div>
-                <form action="" id="search-box">
-                    <input type="text" class="search-input" placeholder="Tìm kiếm khóa học">
-                    <button class="search-btn"><i class="ti-search"></i></button>
-                </form>   
+                <div class="search" id="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        <div class="course">
+                            <a href="./web-content/web-cont-1.html"><img src="./images/contnor1-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="./web-content/web-cont-1.html"><h2>HTML, CSS từ zero đến hero</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contnor2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contnor3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contnor4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>Kiến thức nhập môn</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro1-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>HTML, CSS pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ Pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="./images/contpro4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"></a><h2>C# pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+                
             </div>
            <div id="bignav">
                 <ul id="nav">
@@ -24,10 +88,10 @@
            </div>
             
             <div id="nav-action">
-                <a href="link-log-in/log-in.html " class="login-a">Đăng nhập</a>
+                <input type="submit" class="login-a" value="Đăng xuất">
             </div>
         </div>
-        <main>
+    <main id="wrapper">
         <section>
             <div class="content-top">
                 <div>
@@ -64,9 +128,8 @@
             <div class="wrapper">
                 <div class="progress-container">
                     <h1>Ví dụ về Flexbox - Lập trình HTML CSS từ cơ bản tới hero</h1>
-                    <div>Mức độ hoàn thành khóa học: <span class="progress-text" id="progressText"></span></div>
                 </div>
-                <div id="next-lesson"><button onclick="updateProgress()"><a href="../cont-1-course.html">Đã xong</a></button></div>
+                <div id="next-lesson"><button><a href="../cont-1-course.html">Đã xong</a></button></div>
                 
              </div>
 
@@ -103,5 +166,5 @@
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
         </script>
 </body>
-<script src="../cont-1-lec.js"></script>
+<script src="./cont-video.js"></script>
 </html>

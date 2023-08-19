@@ -221,6 +221,7 @@ div.menu li > a{
     left: 0px;
     border: 1px solid #b7b7b7;
     display: none;
+    z-index: 999;
 }
 .menu li:hover > .sub-menu{
     display: block;

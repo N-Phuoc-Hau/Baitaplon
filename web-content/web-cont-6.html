@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web-cont-1.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="../images/logo-black.png" class="icon" />
+    <title>Khóa học JavaScript miễn phí</title>
+</head>
+<script src="./json.js"></script>
+<body>
+    <script src="./data/categories.js"></script>
+    <div id="main">
+        <div id="header">
+            <div class="wrap">
+                <div class="logo"><img src="../images/logo-black.png" alt="logo"></div>
+                <div class="search" id="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        <div class="course">
+                            <a href="../web-content/web-cont-1.html"><img src="../images/contnor1-menu.png" alt=""></a>
+                            <div class="detail">
+                                <a href="../web-content/web-cont-1.html"><h2>HTML, CSS từ zero đến hero</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contnor2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contnor3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ cơ bản</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contnor4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>Kiến thức nhập môn</h2></a>
+                                <h3>Miễn phí</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro1-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>HTML, CSS pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro2-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>JavaScript pro</h2>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro3-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"><h2>C++ Pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                        <div class="course">
+                            <img src="../images/contpro4-menu.png" alt="">
+                            <div class="detail">
+                                <a href="#"></a><h2>C# pro</h2></a>
+                                <h3>Pro</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+                
+            </div>
+           <div id="bignav">
+                <ul id="nav">
+                </ul>
+           </div> 
+            <div id="nav-action">
+                <input type="submit" class="login-a" value="Đăng xuất">
+            </div>
+        </div>
+        <div id="wrapper">
+    <main>
+    <section>
+            <div class="container-modal">
+                <div class="modal">
+                    <div class="modal-header">
+                        <h3>Thông báo!</h3>
+                        <button id="btn-close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Bạn đã đăng kí thành công</p>
+                    </div>
+                </div>
+            </div>
+        <div class="content-top">
+            <div>
+            <img src="../images/poster 5.png" alt="">
+            </div>
+            <div class="menu" id="headmenu">
+                <ul class="main-menu">
+                    <li>
+                        <a href="#">Giới thiệu</a>
+                        <ul class="sub-menu">
+                            <li><a href="./content-lecturer/cont-2-lec.html">Giáo viên</a></li>
+                                <li>
+                                <a href="#">Khóa học</a>
+                                <ul class="sub-menu">
+                                    <li><a href="./content-lesson/cont-2-les.html">Bài học</a></li>
+                                    <li><a href="./content-standard/cont-2-standard.html">Chuẩn đầu ra</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    <li><a href="./content-course/cont-2-course.html">Nội dung</a></li>
+                    <li><a href="./content-request/cont-2-request.html">Yêu cầu và mục tiêu</a></li>
+                    <li><a href="./content-exercise/cont-2-ex.html">Bài tập</a></li>
+                </ul>
+        </div>
+    </div>
+    
+        <div class="content-bottom">
+            <div class="subject">
+                <div class="image">
+                    <h1>Khóa học JavaScript cơ bản</h1>
+                    <p><em>Giáo viên: Võ Trần Yến Như</em></p>
+                    <div>
+                        <img src="../images/contnor2.png">
+                    </div>
+                </div>
+                <div class="sign-up">
+                    <div class="wrap-1">
+                        <ul>
+                             <li>Ngày khai giảng: <span class="bold">7/8/2023</span></li>
+                             <li>Lịch học: <span>Thứ 3, thứ 5 hàng tuần</span></li>
+                            <li>Ngày kết thúc: <span>5/10/2023</span></li>
+                        </ul>
+                        <input type="submit" class="submit" value="Đăng kí">
+                    </div>
+                </div>
+         </div>
+         <div class="tab">
+            <div class="tab-menu">
+                <div class="title">Tổng quan</div>
+            </div>
+            <div class="tab-content">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="event-image">
+                            <img src="../images/img-xoay.png">
+                            <div class="event-shape-1 rotated">
+                                <img src="../images/event-shape-1.png" alt="">
+                            </div>
+                            <div class="event-shape-2" >    
+                                <img src="../images/event-shape-2.png" alt="">
+                            </div>
+                        </div>
+                    </div> 
+                        <div class="contents">
+                            <div class="section-title">
+                                <h2>Mục tiêu khóa học</h2>   
+                                <img class="section-img" src="../images/section-title-shape.png" alt="">
+                            </div>
+                            <div class="content-sub">
+                                <div class="col-lg-6 mb-30">
+                                    <div class="single-tutor one">
+                                        <img src="../images/icon-back-end.png" alt="Image">
+                                        <h3>Lập trình thành thạo</h3>
+                                        <p>Hiểu chi tiết về các khái niệm cơ bản trong JS, xây dựng được website đầu tiên kết hợp với JS</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-30">
+                                     <div class="single-tutor two">
+                                        <img src="../images/icon-tu-duy.png" alt="Image">
+                                        <h3>Nền tảng vững chắc</h3>
+                                        <p>Đạt được nền tảng kỹ thuật lập trình vững chắc và tư duy trong việc giải quyết vấn đề.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="single-tutor three mb-30">
+                                        <img src="../images/icon-ui-ux.png" alt="Image">
+                                        <h3>Ứng tuyển tại các công ty</h3>
+                                        <p>Đủ khả năng ứng tuyển nghề: Tự tin khi phỏng vấn với kiến thức vững chắc.</p>                                   
+                                     </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="single-tutor four mb-30">
+                                        <img src="../images/icon-cv.png" alt="Image">
+                                        <h3>Định hướng rõ ràng</h3>
+                                        <p>Giúp các bạn định hướng được công việc lập trình JS trong thực tế cần phải làm những gì</p>     
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+               
+                </div>
+            </div>
+            <div class="area">
+                <div class="container-1">
+                    <div class="section-title">
+                        <h2>Đối tượng tham gia </h2>
+                        <img class="section-img" src="../images/section-title-shape.png" alt="Image">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-20">
+                            <div class="single-achieve">
+                                <div class="achieve-shape shape-1">
+                                    <img src="../images/achieve-shape-1.png" alt="Image">
+                                    <img class="achieve-shape_icon" src="../images/bat-dau.png" alt="">
+                                </div>
+                                <p>Các bạn sinh viên IT đang theo học tại các trường ĐH, mong muốn có một nền tảng lập trình vững vàng để tạo lợi thế khi đi xin việc</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-20">
+                            <div class="single-achieve">
+                                <div class="achieve-shape shape-1">
+                                    <img src="../images/achieve-shape-2.png" alt="Image">
+                                    <img class="achieve-shape_icon" src="../images/lap-trinh-vien.png" alt="">
+                                </div>
+                                <p>Các bạn sinh viên đang theo học các ngành khác ngoài IT, mong muốn chuyển sang ngành IT để có được các cơ hội việc làm và phát triển nghề nghiệp tốt hơn</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-20">
+                            <div class="single-achieve">
+                                <div class="achieve-shape shape-1">
+                                    <img src="../images/achieve-shape-3.png" alt="Image">
+                                    <img class="achieve-shape_icon" src="../images/puzzl.png" alt="">
+                                </div>
+                                <p>Các bạn đã đi làm ở các ngành nghề khác ngoài IT mong muốn chuyển sang ngành IT để có công việc tốt hơn</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-20">
+                            <div class="single-achieve">
+                                <div class="achieve-shape shape-1">
+                                    <img src="../images/achieve-shape-4.png" alt="Image">
+                                    <img class="achieve-shape_icon" src="../images/laptop.png" alt="">
+                                </div>
+                                <p>Các bạn trẻ đang băn khoăn không biết lựa chọn ngành nghề nào cho mình, đang mong muốn được tư vấn và hỗ trợ để có thể đưa ra lựa chọn đúng của mình, nhanh chóng nắm vững tay nghề và tìm kiếm việc làm.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-20">
+                            <div class="single-achieve">
+                                <div class="achieve-shape shape-1">
+                                    <img src="../images/achieve-shape-4.png" alt="Image">
+                                    <img class="achieve-shape_icon" src="../images/no-luc.png" alt="Image">
+                                </div>
+                                <p>Yêu cầu chung: Các bạn ham học hỏi, chăm chỉ, kiên trì và không ngại hỏi đáp cũng như đưa ra các thắc mắc trong quá trình học tập.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    </main>
+    <div id="gTTop">
+        <a href="javascript:;"><i class="ti-angle-double-up"></i></a>
+    </div>
+    <div id="footer">
+        <div class="grid">
+             <div class="grid-row">
+                 <div class="grid-col-4-0">
+                     <h3 class="heading">Liên hệ</h3>
+                     <ul class="footer-list">
+                         <li class="footer-list-item"><a href="tel:0389 283 943"><i class="fa-solid fa-phone"></i> Liên hệ: 0389283943</a></li>
+                         <li class="footer-list-item"><a href="mailto:goldenfarm.vn@gmail.com"><i class="fa-solid fa-envelope"></i> Email: goldenfarm.vn@gmail.com</a></li>
+                         <li class="footer-list-item">Địa chỉ: Số 26 Dương Đình Nghệ, Phường Yên Hòa, Quận Cầu Giấy, TP. Hà Nội</li>
+                     </ul>
+                 </div>
+                 <div class="grid-col-4-0">
+                     <h3 class="heading">Item 001</h3>
+                     <ul class="footer-list">
+                         <li class="footer-list-item"><a href="#">ITEM 0001</a></li>
+                         <li class="footer-list-item"><a href="#">ITEM 0002</a></li>
+                         <li class="footer-list-item"><a href="#">ITEM 0003</a></li>
+                     </ul>
+                 </div>
+                 <div class="grid-col-4-0">
+                     <h3 class="heading">Golden Farm</h3>
+                     <ul class="footer-list">
+                         <li class="footer-list-item">Ngày thành lập: 04/03/2022</li>
+                         <li class="footer-list-item">Lĩnh vực: Công nghệ, giáo dục, lập trình. F8 xây dựng và phát triển những sản phẩm mang lại giá trị cho cộng đồng.</li>
+                     </ul>
+                 </div>
+                 
+        </div>
+     </div>
+ </div>
+</div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
+    </script>
+    <script src="web-cont-1.js"></script>
+</body>
+</html>
