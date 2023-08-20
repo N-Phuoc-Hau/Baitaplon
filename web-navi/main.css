@@ -23,6 +23,7 @@ body{
 }
 .wrap{
     display: flex;
+    align-items: center;
     margin-left: -40px;
 }
 #nav{

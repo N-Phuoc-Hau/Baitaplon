@@ -6,6 +6,9 @@
     .small-forums{
         margin: 8px 8px
     }
+    #header{
+        justify-content: space-between;
+    }
     #header .search{
         width: 230px;
     }
@@ -19,7 +22,10 @@
         padding-left: 10px;
     }
     #nav li a {
-        padding: 0 2rem;
+        padding: 0 28px;
+    }
+    #nav-action{
+        justify-content: flex-end;
     }
 }
 
