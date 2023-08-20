@@ -159,7 +159,7 @@ const search = () => {
     }
 }
 function loadcourselist(){
-    fetch("acourselist.json").then(res => res.json()).then(data =>{
+    fetch("courselist.json").then(res => res.json()).then(data =>{
         let d = document.getElementById("course-list");
         let re = "";
         for (let c of data)
@@ -174,6 +174,10 @@ function loadcourselist(){
 
         d.innerHTML += re;
     })
+<<<<<<< HEAD
+=======
+
+>>>>>>> caab1dc12f84e0983886e0d0b8af475d3ca33fd4
 }
 window.onload = () => {
     loadstatus();

@@ -3,62 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="./link-log-in-up/log-in.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>Document</title>
-</head>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js">
+    </script>
+    </head>
 <body>
-    <style>
-        .wrapper{
-            min-height: 100vh;
-        }
-        .container-modal
-        {
-            height: 100vh;
-            background: rgba(0, 0, 0, 0.5);
-            position: fixed;
-            top: 80px;
-            left: 0;
-            width: 100%;
-            display: none;
-        }
-        .modal{
-            background: white;
-            max-width: 500px;
-            position: relative;
-            top: 100px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-        .modal-header{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 5px 20px;
-            border-bottom: 1px solid #dedede;
-        }
-        .modal-header h3{
-            margin: 0;
-        }
-        #btn-close{
-            outline: none;
-            border: none;
-            background: none;
-            font-size: 15px;
-        }
-        .modal-body{
-            padding: 15px 20px 15px;
-        }
-    </style>
-    <div class="container-modal">
-        <div class="modal">
-            <div class="modal-header">
-                <h3>Thông báo!</h3>
-                <button id="btn-close"><i class="fa-solid fa-x"></i></button>
-            </div>
-            <div class="modal-body">
-                <p>Bạn đã đăng kí thanhf công</p>
-            </div>
-        </div>
+    <div id="form">
+        <form  id="form-login">
+            <div class="container-modal" id="container-modal">
+                <div class="modal">
+                    <div class="modal-header">
+                        <h3>Thông báo!</h3>
+                        <button id="btn-close"><i class="fa-solid fa-x"></i></button>
+                    </div>
+                    <div class="modal-body">
+                        <p id="content">Bạn đã đăng nhập thành công</p>
+                    </div>
+                </div>
+                <h1 class=heading>Đăng kí</h1>
+                <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="username" class="input-login" placeholder="Tên đăng nhập">
+                </div>
+                <div class="form-group">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" class="input-login" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" id="password" class="input-login" placeholder="Mật khẩu">
+                    <div id="eye">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>  
+                </div>
+                    <div class="form-group">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" class="input-login" placeholder="Nhập lại mật khẩu">
+                        <div id="eye-again">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                    </div>
+                    <div class="forget">
+                        <label>
+                            <input type="checkbox"> Tôi đồng ý <a href="./rule.html">điều khoản</a>
+                        </label>
+                    </div>
+
+                <input type="submit" value="Đăng kí" class="submit">
+
+        </form>
     </div>
 </body>
+<script src="sign-up.js"></script>
 </html>
