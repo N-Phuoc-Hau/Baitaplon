@@ -115,7 +115,6 @@ function loadmenu(){
         d.innerHTML += re;
     })
 }
-<<<<<<< HEAD
 //hiện search
 $(document).ready(function(){
     if( $('#search-item').focus (function(){
@@ -158,7 +157,7 @@ const search = () => {
             }
         }
     }
-=======
+}
 function loadcourselist(){
     fetch("acourselist.json").then(res => res.json()).then(data =>{
         let d = document.getElementById("course-list");
@@ -175,7 +174,6 @@ function loadcourselist(){
 
         d.innerHTML += re;
     })
->>>>>>> refs/remotes/origin/main
 }
 window.onload = () => {
     loadstatus();

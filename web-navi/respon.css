@@ -1,5 +1,5 @@
 /* PC */
-@media (min-width: 1024px ){
+@media (min-width: 1120px ){
     #content .content-top>h1 {
         font-size: 2.8rem;
         font-weight: 700;
@@ -12,13 +12,13 @@
 
 
 /* tablet */
-@media (min-width: 740px ) and (max-width: 1024px) {
+@media (min-width: 740px ) and (max-width: 1120px) {
     #content{
         width: 85%;
     }
     .small-forums{
-        width: 23%;
-        margin: 8px 5px
+        width: 45%;
+        margin: 8px 15px
         
     }
     .cont{
@@ -52,6 +52,9 @@
     #content .content-top>div {
         font-size: 1.5rem;
         font-weight: 500;
+    }
+    .ele-for{
+        margin-bottom: 1rem;
     }
 }
 /* MB */

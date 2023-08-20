@@ -9,9 +9,10 @@
 /* tablet */
 @media (min-width: 740px ) and (max-width: 1120px) {
     #content{
-        width: 80%;
+        width: 90%;
     }
     .small-forums{
+        width: 45%;
         margin: 8px 8px
     }
     #header .search{
@@ -27,10 +28,11 @@
         padding-left: 10px;
     }
     #nav li a {
-        padding: 0 2rem;
+        padding: 0 1.7rem;
     }
     #slider{
         width: 740px;
+        margin: 100px auto 50px
     }
     #gTTop a{
         font-size: 16px;
