@@ -12,14 +12,14 @@
 },
 {
     "id": 3,
-    "title": "Lộ trình",
-    "href": "/web-navi/Call.html",
-    "icon": "fa-solid fa-route"
-},
-{
-    "id": 4,
     "title": "Blog",
     "href": "web-navi/Blog.html",
     "icon": "fa-solid fa-newspaper"
+},
+{
+    "id": 4,
+    "title": "Chi tiết",
+    "href": "web-navi/Call.html",
+    "icon": "fa-solid fa-route"
 }
 ]

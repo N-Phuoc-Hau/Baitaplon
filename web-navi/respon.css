@@ -1,5 +1,5 @@
 /* PC */
-@media (min-width: 1024px ){
+@media (min-width: 1120px ){
     #content .content-top>h1 {
         font-size: 2.8rem;
         font-weight: 700;
@@ -12,17 +12,20 @@
 
 
 /* tablet */
-@media (min-width: 740px ) and (max-width: 1024px) {
+@media (min-width: 740px ) and (max-width: 1120px) {
     #content{
         width: 85%;
     }
     .small-forums{
-        width: 23%;
-        margin: 8px 5px
+        width: 45%;
+        margin: 8px 15px
         
     }
     .cont{
         width: 103%;
+    }
+    .wrap-1{
+        flex-wrap: wrap;
     }
     #header .search{
         width: 300px;
@@ -34,7 +37,7 @@
         width: 200px;
     }
     #search-box .search-input{
-        width: 130px;
+        width: 150px;
     }
     #bignav{
         padding-left: 10px;
@@ -53,6 +56,9 @@
         font-size: 1.5rem;
         font-weight: 500;
     }
+    .ele-for{
+        margin-bottom: 1rem;
+    }
 }
 /* MB */
 @media (max-width: 740px ){
@@ -63,7 +69,7 @@
         margin-left: 0px;
     }
     .search{
-        margin-left: -45px;
+        margin-left: -38px;
     }
     #header #search-box{
         width: 170px;
@@ -75,7 +81,7 @@
         height: 70px;
     }
     #search-box .search-input{
-        width: 110px;
+        width: 145px;
     }
     #search-box .search-btn{
         position: absolute;
@@ -132,12 +138,13 @@
        width: 1200px;
     }
     .nor .forums {
-        width: 1000px;
+        width: 1350px;
     }
-    .wrap{
+    .wrap-1{
         flex-wrap: wrap;
         justify-content: center;
         padding: 0;
+        font-size: 12px;
     }
 
     .right p{
@@ -149,6 +156,7 @@
     #footer{
         width: 98%;
         padding: 1%;
+        margin-top: 50px;
     }
     .grid-row{
         display: block;

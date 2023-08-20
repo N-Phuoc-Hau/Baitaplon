@@ -186,8 +186,9 @@ body{
 .content-video{
     text-align: center;
 }
-#next-lesson{
-    text-align: center;
+.btn-lesson{
+    display: flex;
+    justify-content: space-between;
 }
 .wrapper-1{
     width: 80%;
@@ -227,6 +228,13 @@ body{
     color: white;
 }
 #next-lesson button:hover {
+    background-color: darkblue;
+}
+#pre-lesson button a{
+    text-decoration: none;
+    color: white;
+}
+#pre-lesson button:hover {
     background-color: darkblue;
 }
 #reset{

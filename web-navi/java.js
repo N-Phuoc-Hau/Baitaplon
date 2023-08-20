@@ -43,7 +43,7 @@ function loadstatus(){
         let re = "";
         for (let c of data)
         re += `
-            <div class="wrap">
+            <div class="wrap-1">
                 <div class="left">
                     <img src="${c.src}" alt="${c.alt}">
                 </div>
@@ -174,7 +174,6 @@ function loadcourselist(){
 
         d.innerHTML += re;
     })
-
 }
 window.onload = () => {
     loadstatus();

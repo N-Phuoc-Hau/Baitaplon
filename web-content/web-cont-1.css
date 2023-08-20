@@ -57,6 +57,7 @@ body{
 }
 
 #bignav{
+    display: flex;
     padding-left: 50px;
     display: block;
 }
@@ -149,8 +150,8 @@ body{
 }
 
 #nav-action{
-    align-items: center;
     display: flex;
+    align-items: center;
     justify-content: flex-end;
     width: 40%;
 }
@@ -546,9 +547,7 @@ section div.section-title .section-img{
     background-color: black; 
     margin-top: 10px;
     position: relative;
-    top: 10px;
-    width: 100%;
-    z-index: 90;
+    top: 10px;  
 }
 #footer div{
     margin-top: 10px;

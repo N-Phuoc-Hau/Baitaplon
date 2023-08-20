@@ -1,11 +1,4 @@
-#header .search{
-    width: 35%;
-}
 
-#header #bignav{
-    margin-left: 5%;
-    padding-left: 0px;
-}
 #content .forums{
     width: 72%;
 }
@@ -61,4 +54,20 @@
 }
 #content .ADSm img{
     height: 30px;
+}
+@media (max-width: 600px ){
+    #content .forums{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #content .ADS{
+        position: relative;
+        display: block;
+        right: 0;
+        width: 100%;
+        margin: 30px auto 10px;
+    }
+    #content .forums .sml{
+        padding: 0;
+    }
 }
