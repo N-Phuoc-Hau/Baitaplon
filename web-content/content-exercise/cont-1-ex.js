@@ -56,7 +56,7 @@ const search = () => {
 
 //ẩn hiện danh sách
 $(document).ready(function(){
-    $('#button-1').click(function(){
+    $('#headline-1').click(function(){
         $(this).toggleClass('open')
         if($(this).hasClass('open')){
             $(this).children('i').removeClass('fa-solid fa-plus');
@@ -71,7 +71,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('#button-2').click(function(){
+    $('#headline-2').click(function(){
         $(this).toggleClass('open')
         if($(this).hasClass('open')){
             $(this).children('i').removeClass('fa-solid fa-plus');
@@ -86,7 +86,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('#button-3').click(function(){
+    $('#headline-3').click(function(){
         $(this).toggleClass('open')
         if($(this).hasClass('open')){
             $(this).children('i').removeClass('fa-solid fa-plus');
@@ -101,7 +101,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $('#button-4').click(function(){
+    $('#headline-4').click(function(){
         $(this).toggleClass('open')
         if($(this).hasClass('open')){
             $(this).children('i').removeClass('fa-solid fa-plus');
@@ -114,4 +114,3 @@ $(document).ready(function(){
         }
     });
 });
-

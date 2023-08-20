@@ -1,25 +1,25 @@
 [{
     "id": 1,
     "title": "Trang chủ",
-    "href": "../../BTL.html",
+    "href": "../BTLlater.html",
     "icon": "fa-solid fa-house"
 },
 {
     "id": 2,
-    "title": "Học",
-    "href": "../../web-navi/KhoaHoc.html",
+    "title": "Khóa học",
+    "href": "../web-navi/KhoaHoc.html",
     "icon": "fa-solid fa-chalkboard"
 },
 {
     "id": 3,
-    "title": "Lộ trình",
-    "href": "../../web-navi/Call.html",
-    "icon": "fa-solid fa-route"
+     "title": "Blog",
+    "href": "../web-navi/Blog.html",
+    "icon": "fa-solid fa-newspaper"
 },
 {
     "id": 4,
-    "title": "Blog",
-    "href": "../../web-navi/Blog.html",
-    "icon": "fa-solid fa-newspaper"
+   "title": "Chi tiết",
+    "href": "web-navi/Call.html",
+    "icon": "fa-solid fa-route"
 }
 ]

@@ -332,6 +332,7 @@ div.title-list > h1{
     overflow: hidden;
     padding: 14px 30px 14px 48px;
     position: relative;
+    cursor: pointer;
 }
 .headline #button-1, #button-2, #button-3, #button-4{
     color: red;

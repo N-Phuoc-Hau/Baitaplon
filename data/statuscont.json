@@ -1,12 +1,12 @@
 [{
-    "src": "../images/status7.png",
+    "src": "./images/status7.png",
     "alt": "ảnh status",
     "href": "https://www.facebook.com/photo/?fbid=673064681521865&set=a.454397630055239",
     "name": "WORKSHOP WEB3 & BLOCKCHAIN - ETHVN - REVEAL TOPIC",
     "cont": "Các diễn giả là các chuyên gia đến từ ETHVN, SUCI Blockchain HUB và KyberNetwork 🥰🥰🥰 - Nếu bạn chưa kịp đăng ký tham gia cũng đừng lo! Nhằm tạo thêm điều kiện cho các bạn, Khoa CNTT quyết định mở thêm 50 vé tham dự nữa cho các bạn nhé! Nhanh tay đăng ký thôi nào!!!"
 },
 {
-    "src": "../images/status8.png",
+    "src": "./images/status8.png",
     "alt": "ảnh status",
     "href": "https://www.facebook.com/photo/?fbid=673064681521865&set=a.454397630055239",
     "name": "Sự khác biệt giữa var, let và const trong JavaScript",
