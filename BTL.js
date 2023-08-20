@@ -13,6 +13,9 @@ setInterval(function(){
     if(counter > 4)
         counter = 1;
 }, 4000)
+
+
+//hiện search
 $(document).ready(function(){
     if( $('#search-item').focus (function(){
             $('.search').removeClass('search').addClass('search1')

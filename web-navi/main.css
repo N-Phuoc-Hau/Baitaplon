@@ -1,8 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #ffffff;
 }
 #header {
     position: fixed;
@@ -17,14 +20,6 @@
     margin: auto;
     padding: 0 32px;
 }
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-}
-.margin-sec{
-    margin-left: 12px;
-    margin-right: -12px;
-}
 .wrap{
     display: flex;
     margin-left: -40px;
@@ -38,7 +33,7 @@
     height: 6rem;
 }
 #header .logo{
-  display: flex;
+    display: flex;
     margin-top: -11px;
 }
 
@@ -52,6 +47,7 @@
     padding: 0px 3rem;
     display: block;
     font-size: 1.5rem;
+    
 }  
 #nav > li:hover > a{
     color: blue;
@@ -59,6 +55,7 @@
     border-bottom: blue solid 3px;
     font-weight: 700;
 }
+
 #bignav{
     padding-left: 50px;
     display: block;
@@ -66,13 +63,17 @@
 #header #nav  li :hover{
     background: lightgray;
 }
+
+/* Phần search */
+
 #header .search{
     display: flex;
     cursor: pointer;
     align-items: flex-start;
     padding: 0;  
-    width: 450px;
+    width: 370px;
 }
+
 #header .search1{
     display: flex;
     padding: 0;    
@@ -94,7 +95,7 @@
     margin-top: 23px;
 }
 #search-box .search-input{
-    width: 230px;
+    width: 250px;
     outline: none;
     border: none ;
     background: none;
@@ -109,6 +110,41 @@
     cursor: pointer;
     border-radius: 50%;
 }
+.course{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+}
+.course img{
+    width: 70px;
+    height: 70px;
+    object-fit: fill;
+    border-radius: 5px;
+}
+.course-list{
+    padding: 20px 0;
+    display: none;
+}
+.course .detail{
+    padding-left: 15px;
+    line-height: 30px;
+}
+.course .detail a{
+    text-decoration: none;
+}
+.course:hover{
+    background-color: lightblue;
+}
+.course .detail h2{
+    font-size: 20px;
+    color: #1d1d1d;
+}
+.course .detail h3{
+    font-size: 18px;
+    color: #1d1d1d;
+}
+
 #nav-action{
     align-items: center;
     display: flex;
@@ -128,6 +164,19 @@
 #nav-action a{
     text-decoration: none;
 }
+#nav-action .logout-a{
+    width: 115px;
+    height: 35px;
+    font-size: 14px;
+    border-radius: 999px;
+    background-color: rgb(255, 104, 22);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 9px 20px;
+}
+
+
 main{
     width: 95%;
     margin: 0 auto;
@@ -249,4 +298,12 @@ main{
 ::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: #dedede;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.margin-sec{
+    margin-left: 12px;
+    margin-right: -12px;
 }
