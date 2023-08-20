@@ -174,120 +174,12 @@ body{
     font-weight: 600;
     padding: 9px 20px;
 }
-/*Menu dưới*/
-section{
-    margin:auto;
-    max-height: 5000px;
-}
-div.content-top   {
-    width: 100%;
 
-    margin: 10px auto;
-}
-div.content-top img{
-    width: 100%;
-    object-fit: unset;
-}
-div.menu{
-      position: relative;
-      top: 0;
-      left: 0;
-      right: 0;
-}
-div.menu ul{
-    display: flex;
-    justify-content: space-around;
-    background-color: #e1dddb;
-    box-shadow: 0px 5px 5px 1px rgb(129, 129, 129);
-    border-bottom: 1px solid #e1dddb;
-}
-div.menu li{
-    list-style-type: none;
-    text-align: center;
-    position: relative;
-}
-div.menu li > a{
-    text-decoration: none;
-    display: block;
-    padding: 15px 20px;
-    color: black;
-}
-
-.menu ul.sub-menu{
-    position: absolute;
-    padding: 15px 0;
-    background-color: #f4eeeb;
-    width: 200px;
-    left: 0px;
-    border: 1px solid #b7b7b7;
-    display: none;
-}
-.menu li:hover > .sub-menu{
-    display: block;
-}
-.menu ul.sub-menu ul.sub-menu{
-    left: 199px;
-    top: -12px;
-}
-.menu ul.sub-menu a{
-    padding: 8px 15px;
-    border-bottom: 2px solid #a2a2a2;
-}
-.menu ul.sub-menu li:hover > a{
-    border-bottom: 2px solid rgb(73, 73, 73);
-    color: red;
-}
-.menu li > ul.sub-menu li:last-child > a{
-    border:none;
-    padding-bottom: 0;
-    padding-top: 5px;
-}
-.menu li > ul > li{
-    margin-bottom: 10px ;
-}
-/*Thiết lập border cho after*/
-.main-menu > li > a{
-    position: relative;
-}
-.main-menu > li > a::before{
-    content: "";
-    height: 4px;
-    width: 00;
-    background: red;
-    position: absolute;
-    bottom: 0;
-    margin-left: -10px;
-    transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1)
-}
-.main-menu > li:hover > a::before{
-    width: 100%;
-}
-.main-menu >li.has-child::after{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f107";
-    color:#7e7d7d;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 15px 0;
-}
-
-.main-menu .sub-menu > li.has-child::after{
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f105";
-    color:#7e7d7d;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 7px 15px;
-}
 /*phần nội dung*/
 .content-title{
     font-size: 2rem;
     text-align: center;
-    margin: 20px 0;
+    margin: 110px 0 10px;
     text-transform: uppercase;
     text-shadow: 2px 2px 3px gray;
 }
@@ -297,18 +189,31 @@ div.menu li > a{
 #next-lesson{
     text-align: center;
 }
-.wrapper{
+.wrapper-1{
     width: 80%;
     margin: 0 auto;
 }
   .progress-container {
-    width: 50%;
-   margin: 48px 0;
+    width: 100%;
+    text-align: left;
+   margin: 30px 0;
   }
-  
-  .progress-text {
+  .progress-container h1, h3, p{
     margin-top: 5px;
   }
+  .progress-container p{
+    margin-bottom: 50px;
+  }
+  .progress-container h3{
+    font-weight: normal;
+  }
+  .progress-container ul li:first-child{
+    margin-top: 10px;
+  }
+  .progress-container ul li{
+    margin-bottom: 10px;
+  }
+
   
   button {
     padding: 10px 20px;
@@ -360,7 +265,7 @@ div.menu li > a{
     position: relative;
     top: 10px;
     width: 100%;
-    z-index: 90;
+    z-index: -1;
 }
 #footer div{
     margin-top: 10px;

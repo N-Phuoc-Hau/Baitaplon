@@ -140,6 +140,7 @@
 
     .content-title {
         font-size: 1.5rem;
+        margin: 170px 0 10px;
     }
     iframe{
         width: 90%;
@@ -149,6 +150,13 @@
         width: 100%;
         text-align: center;
         margin: 30px 0;
+    }
+    .progress-container h3 {
+        text-align: start;
+    }
+    .progress-container ul li {
+        text-align: start;
+        word-wrap: break-word;
     }
     button {
         padding: 10px;
