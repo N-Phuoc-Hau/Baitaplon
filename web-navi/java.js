@@ -115,6 +115,7 @@ function loadmenu(){
         d.innerHTML += re;
     })
 }
+<<<<<<< HEAD
 //hiện search
 $(document).ready(function(){
     if( $('#search-item').focus (function(){
@@ -157,9 +158,28 @@ const search = () => {
             }
         }
     }
+=======
+function loadcourselist(){
+    fetch("acourselist.json").then(res => res.json()).then(data =>{
+        let d = document.getElementById("course-list");
+        let re = "";
+        for (let c of data)
+        re += `
+    <div class="course">
+        <a href="${c.href}"><img src="${c.src}" alt=""></a>
+        <div class="detail">
+            <a href="${c.href}"><h2>${c.name}</h2></a>
+            <h3>${c.cost}</h3>
+        </div>
+    </div>`;
+
+        d.innerHTML += re;
+    })
+>>>>>>> refs/remotes/origin/main
 }
 window.onload = () => {
     loadstatus();
+    loadcourselist();
     loadforumsnor();
     loadforumspro();
     loadmenu();

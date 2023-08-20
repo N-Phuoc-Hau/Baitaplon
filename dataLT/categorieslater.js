@@ -1,6 +1,6 @@
 //Json
 function loadmenu(){
-    fetch("data/nav.json").then(res => res.json()).then(data =>{
+    fetch("dataLT/nav.json").then(res => res.json()).then(data =>{
         let d = document.getElementById("nav");
         let re = "";
         for (let c of data)
@@ -20,7 +20,7 @@ function loadmenu(){
 //     })
 // }
 function loadforumspro(){
-    fetch("data/forumspro.json").then(res => res.json()).then(data =>{
+    fetch("dataLT/forumspro.json").then(res => res.json()).then(data =>{
         let d = document.getElementById("json-forums-pro");
         let re = "";
         for (let c of data)
@@ -43,7 +43,7 @@ function loadforumspro(){
     })
 }
 function loadforumsnor(){
-    fetch("data/forumsnor.json").then(res => res.json()).then(data =>{
+    fetch("dataLT/forumsnor.json").then(res => res.json()).then(data =>{
         let d = document.getElementById("json-forums-nor");
         let re = "";
         for (let c of data)
@@ -66,7 +66,7 @@ function loadforumsnor(){
     })
 }
 function loadstatus(){
-    fetch("data/statuscont.json").then(res => res.json()).then(data =>{
+    fetch("dataLT/statuscont.json").then(res => res.json()).then(data =>{
         let d = document.getElementById("json-status");
         let re = "";
         for (let c of data)
@@ -89,7 +89,7 @@ function loadstatus(){
     })
 }
 function loadcourselist(){
-    fetch("data/courselist.json").then(res => res.json()).then(data =>{
+    fetch("dataLT/courselist.json").then(res => res.json()).then(data =>{
         let d = document.getElementById("course-list");
         let re = "";
         for (let c of data)

@@ -1,30 +1,63 @@
 /* PC */
 @media (min-width: 1024px ){
+    #content .content-top>h1 {
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+    #content .content-top>div {
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
 }
 
 
 /* tablet */
 @media (min-width: 740px ) and (max-width: 1024px) {
-    #header{
-        justify-content: space-around;
+    #content{
+        width: 85%;
+    }
+    .small-forums{
+        width: 23%;
+        margin: 8px 5px
+        
+    }
+    .cont{
+        width: 103%;
+    }
+    #header .search{
+        width: 300px;
+    }
+    #header .logo img{
+        height: 4rem;
+    }
+    #header #search-box{
+        width: 200px;
+    }
+    #search-box .search-input{
+        width: 130px;
+    }
+    #bignav{
+        padding-left: 10px;
     }
     .wrap{
         flex-wrap: wrap;
-        justify-content: center;
     }
-    #footer{
-        width: 98%;
-        padding: 1%;
+    #nav li a {
+        padding: 0 1.5rem;
     }
-    #content{
-        margin-top: 100px;
-        width: 95%;
+    #content .content-top>h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    #content .content-top>div {
+        font-size: 1.5rem;
+        font-weight: 500;
     }
 }
 /* MB */
 @media (max-width: 740px ){
     #header{
-        display: block;
+        display: flex;
     }
     #header #bignav{
         margin-left: 0px;
@@ -33,13 +66,13 @@
         margin-left: -45px;
     }
     #header #search-box{
-        width: 210px;
-        margin-left: -8px;
+        width: 170px;
+        margin-left: -3px;
         height: 30px;
         position: relative;
     }
     #header .logo img {
-        height: 90px;
+        height: 70px;
     }
     #search-box .search-input{
         width: 110px;
@@ -47,7 +80,6 @@
     #search-box .search-btn{
         position: absolute;
         top: 8px;
-        margin-left: 40px;
         padding: 0;
     }
     #nav li a {
@@ -80,6 +112,10 @@
     #content .content-top>h1 {
         font-size: 2rem;
         font-weight: 700;
+    }
+    #content .content-top>div {
+        font-size: 1rem;
+        font-weight: 500;
     }
     .content-top p{
         line-height: 25px;
@@ -116,6 +152,9 @@
     }
     .grid-row{
         display: block;
+    }
+    .grid-col-4-0{
+        width: 100%;
     }
     #content{
         width: 95%;

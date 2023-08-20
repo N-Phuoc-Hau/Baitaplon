@@ -1,10 +1,36 @@
+/* tablet */
+@media (min-width: 740px ) and (max-width: 1120px) {
+    #content{
+        width: 80%;
+    }
+    .small-forums{
+        margin: 8px 8px
+    }
+    #header .search{
+        width: 230px;
+    }
+    #header #search-box{
+        width: 200px;
+    }
+    #search-box .search-input{
+        width: 150px;
+    }
+    #bignav{
+        padding-left: 10px;
+    }
+    #nav li a {
+        padding: 0 2rem;
+    }
+}
+
+
 /* MB */
 @media (max-width: 740px ){
     #header{
         display: block;
     }
     #search-box{
-        width: 180px;
+        width: 225px;
         margin-left: -8px;
         height: 30px;
         position: relative;
@@ -13,12 +39,12 @@
         height: 90px;
     }
     #search-box .search-input{
-        width: 100px;
+        width: 165px;
     }
     #search-box .search-btn{
         position: absolute;
         top: 8px;
-        margin-left: 50px;
+        margin-left: 35px;
         padding: 0;
     }
     #bignav{
@@ -182,5 +208,27 @@
     }
     #footer .footer-list {
         padding-right: 10px;
+    }
+}
+@media (max-width: 430px ){
+    #search-box{
+        width: 160px;
+        margin-left: -8px;
+        height: 30px;
+        position: relative;
+    }
+    #header .logo img {
+        margin-top: 14px;
+        margin-right: 10px;
+        height: 65px;
+    }
+    #search-box .search-input{
+        width: 100px;
+    }
+    #search-box .search-btn{
+        position: absolute;
+        top: 8px;
+        margin-left: 30px;
+        padding: 0;
     }
 }

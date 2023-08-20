@@ -30,7 +30,7 @@ body{
 
 
 #header .logo img{
-    height: 6rem;
+    height: 5rem;
 }
 #header .logo{
     display: flex;
@@ -69,7 +69,7 @@ body{
 #header .search{
     display: flex;
     cursor: pointer;
-    align-items: flex-start;
+    align-items: center;
     padding: 0;  
     width: 370px;
 }
@@ -92,7 +92,7 @@ body{
     border-radius: 20px;
     width: 300px;
     border: 0.5px solid rgba(0, 0, 0, 0.5 );
-    margin-top: 23px;
+    margin-top: 0;
 }
 #search-box .search-input{
     width: 250px;
@@ -110,6 +110,7 @@ body{
     cursor: pointer;
     border-radius: 50%;
 }
+<<<<<<< HEAD
 .course{
     display: flex;
     align-items: center;
@@ -144,6 +145,8 @@ body{
     font-size: 18px;
     color: #1d1d1d;
 }
+=======
+>>>>>>> refs/remotes/origin/main
 
 #nav-action{
     align-items: center;
@@ -258,7 +261,6 @@ main{
     margin-top: 100px;
     position: relative;
     top: 10px;
-    width: 100%;
     z-index: 10;
 }
 #footer div{
