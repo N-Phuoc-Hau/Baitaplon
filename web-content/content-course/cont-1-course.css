@@ -412,7 +412,7 @@ div.title-list > h1{
     position: relative;
     top: 10px;
     width: 100%;
-    z-index: 90;
+    z-index: -1;
 }
 #footer div{
     margin-top: 10px;

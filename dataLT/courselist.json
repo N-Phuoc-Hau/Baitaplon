@@ -1,54 +1,54 @@
 [{
     "href":"./web-cont-5.html",
-    "src": "../images/contnor1-menu.png",
+    "src": "./images/contnor1-menu.png",
     "name":"HTML, CSS từ zero đến hero",
     "cost":"Miễn phí"
 },
 {
     "href":"./web-cont-6.html",
-    "src": "../images/contnor2-menu.png",
+    "src": "./images/contnor2-menu.png",
     "name":"JavaScript cơ bản",
     "cost":"Miễn phí"
 },
 {
     "href":"./web-cont-7.html",
-    "src": "../images/contnor3-menu.png",
+    "src": "./images/contnor3-menu.png",
     "name":"C++ cơ bản",
     "cost":"Miễn phí"
 },
 {
     "href":"./web-cont-8.html",
-    "src": "../images/contnor4-menu.png",
+    "src": "./images/contnor4-menu.png",
     "name":"Kiến thức nhập môn",
     "cost":"PRO"
 },
 {
     "href":"./web-cont-9.html",
-    "src": "../images/contnor5-menu.jpg",
+    "src": "./images/contnor5-menu.jpg",
     "name":"Cấu trúc dữ liệu & thuật giải",
     "cost":"PRO"
 },
 {
     "href":"./web-cont-1.html",
-    "src": "../images/contpro1-menu.png",
+    "src": "./images/contpro1-menu.png",
     "name":"HMTL & CSS pro",
     "cost":"PRO"
 },
 {
     "href":"./web-cont-2.html",
-    "src": "../images/contpro2-menu.png",
+    "src": "./images/contpro2-menu.png",
     "name":"JavaScript Pro",
     "cost":"PRO"
 },
 {
     "href":"./web-cont-3.html",
-    "src": "../images/contpro3-menu.png",
+    "src": "./images/contpro3-menu.png",
     "name":"C++ Pro",
     "cost":"PRO"
 },
 {
     "href":"./web-cont-4.html",
-    "src": "../images/contpro4-menu.png",
+    "src": "./images/contpro4-menu.png",
     "name":"C# Pro",
     "cost":"PRO"
 }

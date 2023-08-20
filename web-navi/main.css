@@ -110,7 +110,6 @@ body{
     cursor: pointer;
     border-radius: 50%;
 }
-<<<<<<< HEAD
 .course{
     display: flex;
     align-items: center;
@@ -145,8 +144,7 @@ body{
     font-size: 18px;
     color: #1d1d1d;
 }
-=======
->>>>>>> refs/remotes/origin/main
+
 
 #nav-action{
     align-items: center;
