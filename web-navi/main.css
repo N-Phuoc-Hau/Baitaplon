@@ -14,6 +14,7 @@ body{
     font-size: 1.2rem;
     z-index: 1;
     display: flex;
+    justify-content: space-between;
     top: 0;
     left: 0;
     right: 0;
@@ -144,10 +145,6 @@ body{
     font-size: 18px;
     color: #1d1d1d;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> caab1dc12f84e0983886e0d0b8af475d3ca33fd4
 
 #nav-action{
     align-items: center;

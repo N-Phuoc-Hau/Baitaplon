@@ -174,10 +174,6 @@ function loadcourselist(){
 
         d.innerHTML += re;
     })
-<<<<<<< HEAD
-=======
-
->>>>>>> caab1dc12f84e0983886e0d0b8af475d3ca33fd4
 }
 window.onload = () => {
     loadstatus();
