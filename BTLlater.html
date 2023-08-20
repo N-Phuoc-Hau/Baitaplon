@@ -36,7 +36,7 @@
            </div>
             
             <div id="nav-action">
-                <input type="submit" class="login-a" value="Đăng xuất">
+                <input type="submit" onclick="logOut()" class="logout-a" value="Đăng xuất">
             </div>
         </div>
     <div id="wrapper">
@@ -136,13 +136,7 @@
 </div>
 </body>
 <script src="./web-content/content-request/cont-request.js"></script>
-<script>
-    const logout = document.querySelector(".logout-a");
-    logout.addEventListener('click', (e) => {
-        alert("Đăng xuất thành công");
-        window.location.href = "BTL.html";
-});
-</script>
+
 </html>
 
 
