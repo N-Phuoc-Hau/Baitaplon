@@ -1,5 +1,5 @@
 /* PC */
-@media (min-width: 1024px ){
+@media (min-width: 1120px ){
     #header{
         justify-content: space-between;
     }
@@ -7,9 +7,9 @@
 
 
 /* tablet */
-@media (min-width: 740px ) and (max-width: 1024px) {
+@media (min-width: 740px ) and (max-width: 1120px) {
     #content{
-        width: 100%;
+        width: 80%;
     }
     .small-forums{
         margin: 8px 8px
@@ -28,6 +28,9 @@
     }
     #nav li a {
         padding: 0 2rem;
+    }
+    #slider{
+        width: 740px;
     }
     #gTTop a{
         font-size: 16px;
@@ -138,9 +141,10 @@
     #slider{
         margin: 165px auto 50px;
         height: 130px;
+        width: 80%;
     }
     .slide img{
-        width: 550px;
+        width: 100%;
         height: 130px;
     }
     .navigation-auto {
@@ -149,7 +153,9 @@
     .navigation-manual{
           margin-top: 0px;
     }
-  
+    .head-Status>a{
+        display: none;
+    }
     #nav li a {
         padding: 0 1rem;
     }

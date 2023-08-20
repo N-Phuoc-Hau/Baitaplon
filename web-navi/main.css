@@ -35,7 +35,7 @@
 
 
 #header .logo img{
-    height: 6rem;
+    height: 5rem;
 }
 #header .logo{
   display: flex;
@@ -69,7 +69,7 @@
 #header .search{
     display: flex;
     cursor: pointer;
-    align-items: flex-start;
+    align-items: center;
     padding: 0;  
     width: 450px;
 }
@@ -91,7 +91,7 @@
     border-radius: 20px;
     width: 300px;
     border: 0.5px solid rgba(0, 0, 0, 0.5 );
-    margin-top: 23px;
+    margin-top: 0;
 }
 #search-box .search-input{
     width: 230px;
@@ -109,6 +109,7 @@
     cursor: pointer;
     border-radius: 50%;
 }
+
 #nav-action{
     align-items: center;
     display: flex;
@@ -209,7 +210,6 @@ main{
     margin-top: 100px;
     position: relative;
     top: 10px;
-    width: 100%;
     z-index: 10;
 }
 #footer div{

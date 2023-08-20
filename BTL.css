@@ -299,7 +299,7 @@ body{
 .bigcont{
     
     box-sizing: inherit;
-    width: 90%;
+    width: 80%;
     overflow: hidden;
     background-color: #fff;
     margin: 0 auto;
@@ -486,7 +486,6 @@ body{
     margin-top: 10px;
     position: relative;
     top: 10px;
-    width: 100%;
     font-size: 16px;
 }
 #footer div{
