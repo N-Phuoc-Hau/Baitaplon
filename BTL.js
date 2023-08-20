@@ -61,10 +61,8 @@ const search = () => {
 
 const login = document.getElementsByClassName(".login-a");
     function logIn(){
-        alert("chuyển tới trang đăng nhập");
         window.location.href = "./link-log-in-up/log-in.html";
     };
-
     function logOut(){ 
         alert("Đăng xuất thành công");
         window.location.href = "BTL.html";
