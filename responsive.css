@@ -143,18 +143,18 @@
     }
     #slider{
         margin: 165px auto 30px;
-        height: 150px;
+        height: 180px;
         width: 90%;
     }
     .slide img{
         width: 100%;
-        height: 150px;
+        height: 180px;
     }
     .navigation-auto {
-        margin-top: 100px; 
+        margin-top: 140px; 
     }
     .navigation-manual{
-          margin-top: 0px;
+          margin-top: 40px;
     }
     .head-Status>a{
         display: none;
