@@ -221,7 +221,7 @@ body{
 /* css chạy cơm */
 .navigation-manual{
     position: absolute;
-    width: 800px;
+    width: 950px;
     max-width: 100%;
     margin-top: -40px;
     display: flex;
@@ -256,7 +256,7 @@ body{
 .navigation-auto{
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 950px;
     max-width: 100%;
     justify-content: center;
     margin-top: 260px;
