@@ -442,3 +442,7 @@ div.menu li > a{
     border-radius: 10px;
     background-color: #dedede;
 }
+.copyright{
+    color: #a9b3bb;
+    text-align: center;
+}
