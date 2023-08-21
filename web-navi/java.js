@@ -75,7 +75,6 @@ function loadforumspro(){
                          <h3>
                              <a class="a-deco" href="${c.href}">${c.name}</a>
                          </h3>
-                         <p>Sắp diễn ra</p>
                      </div>
                  </section>`;
 

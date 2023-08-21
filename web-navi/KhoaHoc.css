@@ -4,7 +4,9 @@
 #header{
     justify-content: space-between;
 }
-
+.text{
+    font-size: 18px;
+}
 
 #content{
     width: 90%;

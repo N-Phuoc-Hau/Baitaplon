@@ -7,19 +7,19 @@
 {
     "id": 2,
     "title": "Khóa học",
-    "href": "web-navi/KhoaHoc.html",
+    "href": "./link-log-in-up/log-in.html",
     "icon": "fa-solid fa-chalkboard"
 },
 {
     "id": 3,
     "title": "Blog",
-    "href": "web-navi/Blog.html",
+    "href": "./link-log-in-up/log-in.html",
     "icon": "fa-solid fa-newspaper"
 },
 {
     "id": 4,
    "title": "Giới thiệu",
-    "href": "web-navi/Call.html",
+    "href": "./link-log-in-up/log-in.html",
     "icon": "fa-solid fa-route"
 }
 ]
