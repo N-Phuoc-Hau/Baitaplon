@@ -12,14 +12,29 @@
 </head>
 <body>
     <div id="header">
-        <div class="search">
-            <div class="logo"><img src="../images/logo-black.png" alt="logo"></div>
-            <form action="" id="search-box">
-                <input type="text" class="search-input" placeholder="Tìm kiếm">
-                <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>   
-            <div class="course-list" id="course-list">
-                    
+        <div id="header">
+            <div class="wrap">
+                <div class="logo"><img src="./images/logo-black.png" alt="logo"></div>
+                <div class="search" id="search">
+                    <div class="container">
+                        <form id="search-box">
+                            <input type="text" id="search-item" class="search-input" placeholder="Tìm kiếm khóa học" onkeyup="search()">
+                            <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form> 
+                        <div class="course-list" id="course-list">
+                        
+                    </div>
+                </div>  
+            </div>
+                
+            </div>
+           <div id="bignav">
+                <ul id="nav">
+                </ul>
+           </div>
+            
+            <div id="nav-action">
+                <input type="submit" onclick="logOut()" class="login-a" value="Đăng xuất">
             </div>
         </div>
        <div id="bignav">
