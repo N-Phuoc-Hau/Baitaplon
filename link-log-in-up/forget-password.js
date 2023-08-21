@@ -23,7 +23,7 @@ $(document).ready(function(){
 const inputUsernameRegister = document.querySelector("#username");
 const inputPasswordRegister = document.querySelector("#password");
 const btnRegister = document.querySelector(".submit");
-
+const inputPasswordRegister_1 = document.querySelector("#password-1");
 btnRegister.addEventListener("click", (e) => {
   e.preventDefault();
   if (
@@ -32,6 +32,7 @@ btnRegister.addEventListener("click", (e) => {
   ) {
     alert("Vui lòng không để trống!")
   } else {
+    if (inputPasswordRegister.value === inputPasswordRegister_1.value){
     // array user
     const user = {
       username: inputUsernameRegister.value,
@@ -42,4 +43,7 @@ btnRegister.addEventListener("click", (e) => {
       alert("Bạn đã thay đổi mật khẩu thành công")
       window.location.href = "./log-in.html"; 
   }
-});
+  else{
+    alert("Mật khẩu nhập lại không trùng khớp!")
+  }
+  }});
