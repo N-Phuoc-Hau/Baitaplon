@@ -381,7 +381,7 @@ div.title{
     right: 0;
     text-align: center;
     z-index: -2;
-    animation: move 9s linear infinite;
+    animation: move 5s linear infinite;
 }
 @keyframes move{
     0% {

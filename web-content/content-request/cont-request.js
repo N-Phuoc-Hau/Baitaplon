@@ -49,3 +49,11 @@ $(document).ready(function(){
 });
 
 
+const login = document.getElementsByClassName(".login-a");
+    function logIn(){
+        window.location.href = "./link-log-in-up/log-in.html";
+    };
+    function logOut(){ 
+        alert("Đăng xuất thành công");
+        window.location.href = "../../BTL.html";
+};

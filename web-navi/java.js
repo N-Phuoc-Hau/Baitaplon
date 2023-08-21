@@ -14,6 +14,15 @@ window.onscroll = function(){
         header.style.position = "relative";
     }
 }
+//thông báo đăng xuất
+const login = document.getElementsByClassName(".login-a");
+    function logIn(){
+        window.location.href = "./link-log-in-up/log-in.html";
+    };
+    function logOut(){ 
+        alert("Đăng xuất thành công");
+        window.location.href = "../BTL.html";
+};
 //JSGoToTop
 var gototop = document.getElementById("gTTop");
 window.onscroll = function(){

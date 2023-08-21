@@ -6,7 +6,16 @@ $(document).ready(function(){
     $('.sub-menu').parent('li').addClass('has-child');
 });
 
+const login = document.getElementsByClassName(".login-a");
+    function logIn(){
+        window.location.href = "./link-log-in-up/log-in.html";
+    };
+    function logOut(){ 
+        alert("Đăng xuất thành công");
+        window.location.href = "../../BTL.html";
+};
 
+///hiện danh sách search
 $(document).ready(function(){
     if( $('#search-item').focus (function(){
             $('.search').removeClass('search').addClass('search1')
