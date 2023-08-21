@@ -293,7 +293,7 @@ body{
 
 #footer .footer-list-item {
     color: #a9b3bb;
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 2.1rem;
     position: relative;
 }
@@ -321,4 +321,11 @@ body{
 ::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: #dedede;
+}
+.center{
+    text-align: center;
+}
+.copyright{
+    color: #a9b3bb;
+    text-align: center;
 }

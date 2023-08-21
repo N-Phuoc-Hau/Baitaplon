@@ -527,3 +527,10 @@ body{
     border-radius: 10px;
     background-color: #dedede;
 }
+.center{
+    text-align: center;
+}
+.copyright{
+    color: #a9b3bb;
+    text-align: center;
+}

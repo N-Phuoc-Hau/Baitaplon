@@ -238,6 +238,7 @@ main{
 
 .grid-row{
     display: flex;
+    justify-content: space-evenly;
     margin-left: -5px;
     margin-right: -5px;
 }
@@ -252,6 +253,13 @@ main{
     padding-right: 5px;
     width: 33%;
 }
+.center{
+    text-align: center;
+}
+.copyright{
+    color: #a9b3bb;
+    text-align: center;
+}
 #footer{
     min-height: 150px;
     padding:30px 20px 20px 20px ;
@@ -259,7 +267,7 @@ main{
     margin-top: 100px;
     position: relative;
     top: 10px;
-    z-index: 10;
+    z-index: -1;
 }
 #footer div{
     margin-top: 10px;
@@ -280,7 +288,7 @@ main{
 #footer .footer-list-item {
     color: #a9b3bb;
     font-size: 1rem;
-    line-height: 2.1rem;
+    line-height: 2rem;
     position: relative;
 }
 #footer .heading{
@@ -288,6 +296,7 @@ main{
     text-transform: uppercase;
     color: #fff;
 }
+
 ::-webkit-scrollbar{
     width: 8px;
 }

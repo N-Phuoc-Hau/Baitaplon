@@ -528,17 +528,12 @@ section div.section-title .section-img{
     flex-wrap: wrap;
     margin-left: -5px;
     margin-right: -5px;
-    justify-content: flex-end;
 }
 
-.grid-col-2-4{
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 33.3333%;
-}
+
 .grid-col-4-0{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 33.3333%;
 }
 #footer{
@@ -567,7 +562,7 @@ section div.section-title .section-img{
 
 #footer .footer-list-item {
     color: #a9b3bb;
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 2.1rem;
     position: relative;
 }
@@ -596,6 +591,11 @@ section div.section-title .section-img{
 ::-webkit-scrollbar-track {
     border-radius: 10px;
     background-color: #dedede;
+}
+
+.copyright{
+    color: #a9b3bb;
+    text-align: center;
 }
 /* modal box */
 .container-modal
