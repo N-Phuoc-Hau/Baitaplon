@@ -14,6 +14,26 @@ setInterval(function(){
         counter = 1;
 }, 4000)
 
+//go to top
+var gototop = document.getElementById("gTTop");
+window.onscroll = function(){
+    console.info(document.body.scrollTop);
+    var gototop = document.getElementById("gTTop");
+    if(document.documentElement.scrollTop > 300){
+        gototop.style.display = "block";
+    }
+    else{
+        gototop.style.display = "none";
+    }
+}
+gototop.addEventListener('click', e=>{
+    var timer = setInterval(function(){
+        document.documentElement.scrollTop-=20;
+
+        if (document.documentElement.scrollTop <= 0)
+        clearInterval(timer);
+    }, 5)
+})
 
 //hiện search
 $(document).ready(function(){

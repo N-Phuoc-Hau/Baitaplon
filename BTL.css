@@ -153,6 +153,8 @@ body{
     width: 20%;
 }
 #nav-action .login-a{
+    width: 115px;
+    height: 35px;
     font-size: 14px;
     border-radius: 999px;
     background-color: rgb(255, 104, 22);
@@ -160,8 +162,8 @@ body{
     cursor: pointer;
     font-weight: 600;
     padding: 9px 20px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
 }
+
 #nav-action a{
     text-decoration: none;
 }
@@ -421,11 +423,11 @@ body{
     font-size: 20px;
     right: 30px;
     bottom: 40px;
-    z-index: 1;
+    z-index: 999;
 }
 #gTTop a{
     text-decoration: none;
-    background-color: rgba(248, 84, 56, 0.2);
+    background-color: rgba(248, 84, 56, 0.8);
     color: rgb(32, 177, 225);
     padding: 18.8px 20px;
 }
