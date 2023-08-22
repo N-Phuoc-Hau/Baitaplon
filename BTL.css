@@ -237,9 +237,6 @@ body{
 .manual-btn:not(:last-child){
     margin-right: 40px;
 }
-.manual-btn:hover{
-    background: #40D3DC;
-}
 #radio1:checked ~ .first{
     margin-left: 0;
 }

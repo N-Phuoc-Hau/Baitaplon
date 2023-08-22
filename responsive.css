@@ -45,6 +45,7 @@
 @media (max-width: 740px ){
     #header{
         display: block;
+        z-index: 999;
     }
     #search-box{
         width: 180px;

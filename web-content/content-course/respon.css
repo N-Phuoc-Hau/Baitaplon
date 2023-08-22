@@ -207,3 +207,9 @@
         padding: 0;
     }
 }
+
+@media (max-width: 380px ){
+    div.title-list > h1{
+        margin: 0;
+    }
+}
