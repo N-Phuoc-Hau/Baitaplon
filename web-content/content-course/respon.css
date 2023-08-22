@@ -189,3 +189,21 @@
         padding-right: 10px;
     }
 }
+@media (max-width: 380px ){
+    #header .logo img {
+        margin-top: 5px;
+        height: 80px;
+    }
+    #search-box{
+        width: 125px;
+    }
+    #search-box .search-input{
+        width: 100px;
+    }
+    #search-box .search-btn{
+        position: absolute;
+        top: 8px;
+        margin-left: 5px;
+        padding: 0;
+    }
+}
