@@ -218,7 +218,7 @@ body{
     transition: 2s;
 }
 .slide img{
-    width: 950px;
+    width: 100%;
     height: 300px;
 }
 /* css chạy cơm */
