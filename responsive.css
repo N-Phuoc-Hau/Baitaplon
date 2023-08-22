@@ -118,6 +118,13 @@
     .cont{
         overflow-x: scroll;
     }
+    .cont::-webkit-scrollbar{
+        height: 5px;
+    }
+    .cont::-webkit-scrollbar-thumb{ 
+        background-color: red;
+
+    }
     .forums{
         width: 800px;
         display: flex;
