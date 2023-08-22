@@ -63,73 +63,80 @@
 /* MB */
 @media (max-width: 740px ){
     #header{
-        display: flex;
+        display: block;
     }
-    #header #bignav{
-        margin-left: 0px;
-    }
-    .search{
-        margin-left: -38px;
-    }
-    #header #search-box{
-        width: 170px;
-        margin-left: -3px;
+    #search-box{
+        width: 180px;
+        margin-left: -8px;
         height: 30px;
         position: relative;
     }
     #header .logo img {
-        height: 70px;
+        height: 90px;
     }
     #search-box .search-input{
-        width: 145px;
+        width: 100px;
     }
     #search-box .search-btn{
         position: absolute;
         top: 8px;
+        margin-left: 50px;
         padding: 0;
-    }
-    #nav li a {
-        padding: 0 1rem;
-    }
-    #bignav{
-        background-color: #ece9e9;
-        border-top: 1px solid rgba(0, 0, 0, 0.2); 
+    }   
+     #bignav{
         position: fixed;
         top: 75px;
         left: 0;
         right: 0;
-        padding-left: 0px;
-    }
-    #nav-action{
-        right: 7px;
-        top: 26px;
-        position: absolute;
-    }
-    #nav-action .login-a{
-        padding: 8px 10px;
-        font-size: 10px;
+        padding-left: 5px;
     }
     #nav{
         justify-content: space-around;
     }
-    #content{
-        margin-top: 180px;
+    #bignav{
+        background-color: #ece9e9;
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
     }
-    #content .content-top>h1 {
-        font-size: 2rem;
-        font-weight: 700;
+    #nav li a {
+        padding: 0 1rem;
     }
-    #content .content-top>div {
-        font-size: 1rem;
-        font-weight: 500;
+    #nav-action{
+        right: 7px;
+        top: 24.5px;
+        position: absolute;
     }
-    .content-top p{
-        line-height: 25px;
-        margin: 6px 0;
+    #nav-action .login-a{
+        padding: 8px;
+        font-size: 10px;
     }
-    #nav li a{
-        padding: 0px 10px;
+
+    #header .search1{
+        width: 210px;
+        height: 300px;
+        z-index: 999;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
+    #search-box{
+        margin-left: 15px;
+    }
+    .course img{
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .course .detail{
+        line-height: 20px;
+    }
+    .course .detail h2{
+        font-size: 16px;
+        color: #1d1d1d;
+    }
+    .course .detail h3{
+        font-size: 12px;
+        color: #1d1d1d;
+    }
+    
     .cont{
         overflow-x: scroll;
     }
@@ -158,20 +165,20 @@
         padding: 1%;
         margin-top: 50px;
     }
-    .grid-row{
-        display: block;
-    }
     .grid-col-4-0{
         width: 100%;
     }
-    #content{
-        width: 95%;
+    .grid-row{
+       display: block;
+    }
+    #footer .heading {
+        font-size: 1.2rem;
     }
     #footer .footer-list-item {
-        font-size: 0.8rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
-    #footer .heading{
-        font-size: 1.4rem;
+    #footer .footer-list {
+        padding-right: 10px;
     }
 }

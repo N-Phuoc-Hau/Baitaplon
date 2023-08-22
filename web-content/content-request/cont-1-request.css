@@ -468,8 +468,8 @@ div.menu li > a{
 .mb-30{
     margin-bottom: 30px;
 }
-::-webkit-scrollbar{
-    width: 8px;
+.search1::-webkit-scrollbar{
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: rgb(108, 105, 105);

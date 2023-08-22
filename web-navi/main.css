@@ -262,7 +262,7 @@ main{
 }
 #footer{
     min-height: 150px;
-    padding:30px 20px 20px 20px ;
+    padding: 30px 0px 20px 30px;
     background-color: black; 
     margin-top: 100px;
     position: relative;
@@ -298,7 +298,7 @@ main{
 }
 
 ::-webkit-scrollbar{
-    width: 8px;
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: rgb(108, 105, 105);

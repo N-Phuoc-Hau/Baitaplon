@@ -63,6 +63,16 @@
         top: 8px;
         margin-left: 50px;
         padding: 0;
+    }   
+     #bignav{
+        position: fixed;
+        top: 75px;
+        left: 0;
+        right: 0;
+        padding-left: 5px;
+    }
+    #nav{
+        justify-content: space-around;
     }
     #bignav{
         background-color: #ece9e9;
@@ -135,16 +145,7 @@
     #top-content .headd{
         margin-left: 15px;
     }
-    #bignav{
-        position: fixed;
-        top: 75px;
-        left: 0;
-        right: 0;
-        padding-left: 5px;
-    }
-    #nav{
-        justify-content: space-around;
-    }
+
     .slides{
         height: 100px;
     }
@@ -191,6 +192,11 @@
     }
     #footer .footer-list {
         padding-right: 10px;
+    }
+    #footer{
+        width: 98%;
+        padding: 1%;
+        margin-top: 50px;
     }
 }
 @media (max-width: 380px ){

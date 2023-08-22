@@ -484,9 +484,8 @@ div.title-list > h1{
     background-color: rgb(108, 105, 105);
     border-radius: 7px;
 }
-::-webkit-scrollbar-track {
-    border-radius: 10px;
-    background-color: #dedede;
+.search1::-webkit-scrollbar{
+    width: 5px;
 }
 .center{
     text-align: center;
