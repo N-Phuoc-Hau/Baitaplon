@@ -19,7 +19,7 @@
 {
     "id": 4,
    "title": "Giới thiệu",
-    "href": "web-navi/Call.html",
+    "href": "../web-navi/Call.html",
     "icon": "fa-solid fa-route"
 }
 ]
