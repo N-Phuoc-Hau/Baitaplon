@@ -36,7 +36,7 @@
         display: block;
     }
     #search-box{
-        width: 225px;
+        width: 180px;
         margin-left: -8px;
         height: 30px;
         position: relative;
@@ -45,13 +45,23 @@
         height: 90px;
     }
     #search-box .search-input{
-        width: 165px;
+        width: 100px;
     }
     #search-box .search-btn{
         position: absolute;
         top: 8px;
-        margin-left: 35px;
+        margin-left: 50px;
         padding: 0;
+    }   
+     #bignav{
+        position: fixed;
+        top: 75px;
+        left: 0;
+        right: 0;
+        padding-left: 5px;
+    }
+    #nav{
+        justify-content: space-around;
     }
     #bignav{
         background-color: #ece9e9;
@@ -59,21 +69,20 @@
     }
     #nav-action{
         right: 7px;
-        top: 26px;
+        top: 24.5px;
         position: absolute;
     }
     #nav-action .login-a{
         padding: 8px;
         font-size: 10px;
     }
-    .main-menu >li.has-child::after {
-        padding: 10px 0;
+    #nav li a {
+        padding: 0 1rem;
     }
     #header .search1{
-        z-index: 999;
-        position: relative;
         width: 210px;
         height: 300px;
+        z-index: 999;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
     }
@@ -96,7 +105,9 @@
         font-size: 12px;
         color: #1d1d1d;
     }
-   div.subject{
+    
+
+     div.subject{
     display: block;
    }
    .subject .image {
@@ -109,22 +120,6 @@
     display: block;
    }
 
-    #bignav{
-        position: fixed;
-        top: 75px;
-        left: 0;
-        right: 0;
-        padding-left: 5px;
-    }
-    #nav{
-        justify-content: space-around;
-    }
-   
-    #nav li a {
-        padding: 0 1rem;
-    }
-
-   
     div.content-bottom > div {
         margin-top: 40px;
     }
@@ -216,10 +211,10 @@
         padding-right: 10px;
     }
 }
-@media (max-width: 430px ){
+@media (max-width: 380px ){
     #search-box{
-        width: 160px;
-        margin-left: -8px;
+        width: 180px;
+        margin-left: 8px;
         height: 30px;
         position: relative;
     }

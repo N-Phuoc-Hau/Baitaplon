@@ -518,7 +518,7 @@ body{
     text-transform: uppercase;
     color: #fff;
  }  
- ::-webkit-scrollbar{
+.search1::-webkit-scrollbar{
     width: 5px;
 }
 ::-webkit-scrollbar-thumb{

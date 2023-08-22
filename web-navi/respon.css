@@ -165,20 +165,20 @@
         padding: 1%;
         margin-top: 50px;
     }
-    .grid-row{
-        display: block;
-    }
     .grid-col-4-0{
         width: 100%;
     }
-    #content{
-        width: 95%;
+    .grid-row{
+       display: block;
+    }
+    #footer .heading {
+        font-size: 1.2rem;
     }
     #footer .footer-list-item {
-        font-size: 0.8rem;
-        line-height: 1.2rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
-    #footer .heading{
-        font-size: 1.4rem;
+    #footer .footer-list {
+        padding-right: 10px;
     }
 }
