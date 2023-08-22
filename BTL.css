@@ -519,7 +519,7 @@ body{
     color: #fff;
  }  
  ::-webkit-scrollbar{
-    width: 8px;
+    width: 5px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: rgb(108, 105, 105);
