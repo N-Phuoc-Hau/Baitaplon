@@ -1,18 +1,12 @@
 //JS header
 // slider
 var counter = 1;
-var prevBtn = document.querySelector('.prev')
-var nextBtn = document.querySelector('.next')
-
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;
     counter++;
-    setTimeout(() => {
-        document.getElementById('radio' + counter).checked = true;
-    }, 4000);
     if(counter > 4)
         counter = 1;
-}, 4000)
+}, 5000)
 
 //go to top
 var gototop = document.getElementById("gTTop");
