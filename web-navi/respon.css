@@ -191,8 +191,8 @@
 }
 @media (max-width: 380px ){
     #header .logo img {
-        margin-top: 5px;
-        height: 80px;
+        margin-top: 10px;
+        height: 70px;
     }
     #search-box{
         width: 125px;
