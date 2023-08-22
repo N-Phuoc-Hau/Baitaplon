@@ -31,7 +31,7 @@
         width: 300px;
     }
     #header .logo img{
-        height: 4rem;
+        height: 6rem;
     }
     #header #search-box{
         width: 200px;
@@ -41,9 +41,6 @@
     }
     #bignav{
         padding-left: 10px;
-    }
-    .wrap{
-        flex-wrap: wrap;
     }
     #nav li a {
         padding: 0 1.5rem;
