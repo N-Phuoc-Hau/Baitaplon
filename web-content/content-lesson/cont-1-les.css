@@ -7,6 +7,9 @@
 body{
     background-color: #ffffff;
 }
+#main{
+    overflow: hidden;
+}
 #header {
     position: fixed;
     height: 80px;
