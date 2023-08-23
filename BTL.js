@@ -73,7 +73,6 @@ const search = () => {
     }
 }
 
-const login = document.getElementsByClassName(".login-a");
     function logIn(){
         window.location.href = "./link-log-in-up/log-in.html";
     };

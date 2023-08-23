@@ -1,8 +1,4 @@
-// $(document).ready(function(){
-//    if ($('.menu').srcollTop(800)){
-//         $(this).attr('position','fixed');
-//     }
-// });
+
 
 //thông báo đăng xuất
 const login = document.getElementsByClassName(".login-a");
