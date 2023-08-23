@@ -49,7 +49,6 @@ function loadstatus(){
                     </a>
                 </div>
             </div>`;
-
         d.innerHTML += re;
     })
 }
